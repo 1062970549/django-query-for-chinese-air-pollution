@@ -1,3 +1,5 @@
+﻿# -*- coding: utf-8 -*-
+
 from django.shortcuts import render
 from django.http import HttpResponse, HttpRequest
 from blog.models import city, region, cityAir, cityPM, regionPM
@@ -32,7 +34,10 @@ def current_url_view_good(request):
 
 def getCities(request):
 	# city and quality may be null
-	url = ('http://www.pm25.in/api/querys/all_cities.json?token=ou5URozsKHUrWLfLyDky')
+
+	
+	# API 填写处:'xxxxxxxxxxxx'
+	url = ('http://www.pm25.in/api/querys/all_cities.json?token=xxxxxxxxxxxxxxx')
 	content = urllib2.urlopen(url).read()
 	data = json.loads(content)
 	l = list()
@@ -73,39 +78,32 @@ def getCities(request):
 
 
 	regionDisplay = regionPM.objects.all()
-	return render_to_response('index.html', {'regionPMDisplay': regionDisplay, 'form':form})
+	return render_to_response('select.html', {'regionPMDisplay': regionDisplay, 'form':form})
 
-
-	# return HttpResponse(city.objects.all())
 
 def index(request):
 	if request.method == 'POST':
 		form = UserForm(request.POST)
 		if form.is_valid():
-			#print form.cleaned_data
 			inputValue = form.cleaned_data['name']
 			searchResult = regionPM.objects.filter(city = inputValue)
 			return render_to_response('result.html', {'inputValue': inputValue, 'form':form, 'searchResult':searchResult})
-			# return HttpResponse(searchResult[1])
 	else:
 		form = UserForm() 
 
 
-	#origin methods
-	# t = loader.get_template('index.html')
-	# c = Context({})
-
-	# return HttpResponse(t.render(c))
 	regionDisplay = regionPM.objects.all()
 	r = list()
 	r.append(regionDisplay[0])
 	for i in range(1,len(regionDisplay)-1):
 		r.append(regionDisplay[i])
 	
-	return render_to_response('index.html', {'regionPMDisplay': r, 'form':form})
+	return render_to_response('select.html', {'regionPMDisplay': r, 'form':form})
 	
 
+def first_page(request):
+	return render_to_response('index.html')
 
-# def getCityAverage(request):
+
 
 
