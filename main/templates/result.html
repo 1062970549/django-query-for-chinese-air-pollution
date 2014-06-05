@@ -1,0 +1,35 @@
+
+<head>
+	<title>中国各城市空气质量</title>
+	<!-- <link rel="stylesheet" type="text/css" href="../../static/style.css"> -->
+	<style type="text/css">
+	body{text-align:center;}
+	table{width: 800px;border-collapse: collapse;}
+	td{border: 1px solid #ddd;}
+	#custom_width{width:11%;}
+	#area{width:16%;}
+	#quality{width:15%;}
+	p{font-family:arial,helvetica,sans-serif; font-size: 25px; color: #2CC5DA;text-align:center;}
+	
+	</style>
+</head>
+
+<body>
+
+	<h1 align = center>{{inputValue}}各地区空气指数查询</h1>
+	<form method = 'post'>
+		{{form}}
+		<input type = 'submit' value = 'ok' />
+
+	</form>
+	<table align = center >
+		<tr>
+			<td id = 'custom_width'>
+				<p>城市</p></td><td id='area'><p>地区</p></td><td id = 'custom_width'><p>AQI</p></td><td id='quality'><p>污染程度</p></td><td id = 'custom_width'><p>PM2.5</p></td><td id = 'custom_width'><p>PM100</p></td><td><p width>时间</p>
+			</td>
+		</tr>
+	</table>
+	{% for everyRegion in searchResult%}
+	<table align = center><tr><td id = 'custom_width'>{{everyRegion.city}}</td><td id='area'>{{everyRegion.area}}</td><td id = 'custom_width'>{{everyRegion.aqi}}</td><td id='quality'>{{everyRegion.quality}}</td><td id = 'custom_width'>{{everyRegion.pm2_5}}</td><td id = 'custom_width'>{{everyRegion.pm10}}</td><td>{{everyRegion.addTime}}</td></tr></table>
+	{%endfor%}
+</body>
