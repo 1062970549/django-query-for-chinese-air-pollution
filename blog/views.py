@@ -37,7 +37,7 @@ def getCities(request):
 
 	
 	# API 填写处:'xxxxxxxxxxxx'
-	url = ('http://www.pm25.in/api/querys/all_cities.json?token=xxxxxxxxxxxxxxx')
+	url = ('http://www.pm25.in/api/querys/all_cities.json?token=xxxxxxxxxxxx')
 	content = urllib2.urlopen(url).read()
 	data = json.loads(content)
 	l = list()

@@ -1,12 +1,26 @@
-#中国各城市空气质量查询 
 A Django query for Chiese Air Pollution Conditions
+===
 
-##介绍
-1. 利用 Django， 调用 [PM25.in](http://www.pm25.in/) 的相关数据借口，实现一个简单的自用中国 PM2.5 空气质量查询功能。
-2. 本 respository 中未提供 [PM25.in](http://www.pm25.in/) 的 API 接口，请自行发邮件申请。
-3. [PM25.in](http://www.pm25.in/) 提供的 API 文档： [API Documentations](http://www.pm25.in/api_doc)
 
-##基本功能
+Introduction
+----
+1. Using ```urllib``` to scratch air pollution data from [PM25.in](http://www.pm25.in/)'s APIs，some template to show the data
+2. The Chinese Air Pollution APIs from  [PM25.in](http://www.pm25.in/) could be available by sending emails to them.
+3. APIs' Documentations in [PM25.in](http://www.pm25.in/) ： [APIs Documentations](http://www.pm25.in/api_doc)
 
-1. 通过 API 获取中国各大城市空气质量数据：<a href="http://127.0.0.1:8000/getdata/">http://127.0.0.1:8000/getdata/</a>
-2. 获取数据库中所有数据：[http://127.0.0.1:8000/index/](http://127.0.0.1:8000/index/)
+Basic Implementation
+--------------------
+
+1. Scratching the  data of air pollution in Chinese main cities:<a href="http://127.0.0.1:8000/getdata/">http://127.0.0.1:8000/getdata/</a>
+2. Get the data from the database：[http://127.0.0.1:8000/index/](http://127.0.0.1:8000/index/)
+
+Nexp Step(Not done yet)
+---------------
+1. Data visualization: improving the front-end design of the websites.
+2. Deploy into my server.
+3. Got all the data and do the sorting and ranks of all the cities in China.
+
+
+License
+-------
+[Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0.html)
