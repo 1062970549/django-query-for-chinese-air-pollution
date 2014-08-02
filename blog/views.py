@@ -31,13 +31,35 @@ def hello(request):
 def current_url_view_good(request):
     return HttpResponse("Welcome to the page  host: %s " % request.get_host())
 
+def initialize_database(request):
+	url = ('http://www.pm25.in/api/querys/all_cities.json?token=ou5URozsKHUrWLfLyDky')
+	content = urllib2.urlopen(url).read()
+	data = json.loads(content)
+	l = list()
+	l.append(data[0]['area'])
+	for i in range(1,len(data)-1):
+		if data[i]['area'] != data[i-1]['area']:
+			l.append(data[i]['area'])  # 拿到城市的列表
+
+	l2 = list(set(l))
+
+	# Save city 数据库
+	for  j in range(0,len(l2)-1):      
+		city2 = city(name = l2[j])
+		city2.save()
+
+	# Save Region city 数据库
+	for i in range(0,len(data)-1):
+		region2 = region(name = data[i]['area'], area = data[i]['position_name'])
+		region2.save()
+
 
 def getCities(request):
 	# city and quality may be null
 
 	
 	# API 填写处:'xxxxxxxxxxxx'
-	url = ('http://www.pm25.in/api/querys/all_cities.json?token=xxxxxxxxxxxx')
+	url = ('http://www.pm25.in/api/querys/all_cities.json?token=ou5URozsKHUrWLfLyDky')
 	content = urllib2.urlopen(url).read()
 	data = json.loads(content)
 	l = list()
@@ -48,14 +70,16 @@ def getCities(request):
 
 	l2 = list(set(l))
 	
-	for  j in range(0,len(l2)-1):
+
+	# Save city 数据库
+	for  j in range(0,len(l2)-1):      
 		city2 = city(name = l2[j])
 		city2.save()
 
-
+	# Save Region city 数据库
 	for i in range(0,len(data)-1):
 		region2 = region(name = data[i]['area'], area = data[i]['position_name'])
-		region2.save()
+		region2.save()				
 
 	for i in range(0,len(data)-1):
 		cityAir2 = cityAir(name = data[i]['area'], CO = data[i]['co'], NO2 = data[i]['no2'], O3 = data[i]['o3'], SO2 = data[i]['so2'])
