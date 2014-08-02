@@ -44,7 +44,7 @@ def getCities(request):
 	l.append(data[0]['area'])
 	for i in range(1,len(data)-1):
 		if data[i]['area'] != data[i-1]['area']:
-			l.append(data[i]['area'])
+			l.append(data[i]['area'])  # 拿到城市的列表
 
 	l2 = list(set(l))
 	
