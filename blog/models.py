@@ -47,9 +47,16 @@ class regionPM(models.Model):
     quality = models.CharField(max_length=40,null = True, blank = True, default = '')
     pm2_5 = models.IntegerField(default = 0)
     pm10 = models.IntegerField(default = 0)
-    addTime = models.DateTimeField(auto_now = True)
-
+    addTime = models.CharField(max_length=30)
+    count = models.IntegerField(default = 1)
     def __unicode__(self):
-        return u'%s %s %f %s %f %f' % (self.city, self.area, float(self.aqi), self.quality, float(self.pm2_5), float(self.pm10))
+        return u'%s %s %f %s %f %f %s %f' % (self.city, self.area, float(self.aqi), self.quality, float(self.pm2_5), float(self.pm10),self.addTime,float(self.count))
    
-
+# eg:
+# class Person(models.Model):
+#     GENDER_CHOICES = (
+#         (u'M', u'Male'),
+#         (u'F', u'Female'),
+#     )
+#     name = models.CharField(max_length=60)
+#     gender = models.CharField(max_length=2, choices=GENDER_CHOICES)

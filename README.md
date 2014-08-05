@@ -21,7 +21,7 @@ Nexp Step Features(Not done yet)
 3. Got all the data and do the sorting and ranking of all the cities in China.
 4. Improve database performance.
 - [x] Deploy into my server.
-
+- [x] Grab the latest data and delete the old ones.
 License
 -------
 [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0.html)

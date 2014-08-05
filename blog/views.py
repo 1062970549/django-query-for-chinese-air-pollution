@@ -31,51 +31,49 @@ def hello(request):
 def current_url_view_good(request):
     return HttpResponse("Welcome to the page  host: %s " % request.get_host())
 
-def initialize_database(request):
+def get_PM_and_Air_data_of_cities(the_counting):
 	url = ('http://www.pm25.in/api/querys/all_cities.json?token=ou5URozsKHUrWLfLyDky')
 	content = urllib2.urlopen(url).read()
 	data = json.loads(content)
-	l = list()
-	l.append(data[0]['area'])
-	for i in range(1,len(data)-1):
-		if data[i]['area'] != data[i-1]['area']:
-			l.append(data[i]['area'])  # 拿到城市的列表
 
-	l2 = list(set(l))
-
-	# Save city 数据库
-	for  j in range(0,len(l2)-1):      
-		city2 = city(name = l2[j])
-		city2.save()
-
-	# Save Region city 数据库
-	for i in range(0,len(data)-1):
-		region2 = region(name = data[i]['area'], area = data[i]['position_name'])
-		region2.save()
+	# City air condition of the cities
+	# PM and aqi condition of the cities
+	for line in data:
+		cityAir2 = cityAir(name = line['area'], CO = line['co'], NO2 = line['no2'], O3 = line['o3'], SO2 = line['so2'])
+		regionPM2 = regionPM(city = line['area'], area = line['position_name'], aqi = line['aqi'], quality = line['quality'], pm2_5 = line['pm2_5'], pm10 = line['pm10'],addTime = line['time_point'],count = the_counting)		
+		# Writing data into database.
+		cityAir2.save()
+		regionPM2.save()
 
 
 def getCities(request):
 	# city and quality may be null
 
+	# read count of the update
+	f = open('count.txt','r')
+	counting = int(f.readline())
+	f.close()
 	
-	# API 填写处:'xxxxxxxxxxxx'
-	url = ('http://www.pm25.in/api/querys/all_cities.json?token=ou5URozsKHUrWLfLyDky')
-	content = urllib2.urlopen(url).read()
-	data = json.loads(content)
-	
-	for i in range(0,len(data)-1):
-		cityAir2 = cityAir(name = data[i]['area'], CO = data[i]['co'], NO2 = data[i]['no2'], O3 = data[i]['o3'], SO2 = data[i]['so2'])
-		cityAir2.save()
+	# Grad data using PM25.in's API
+	get_PM_and_Air_data_of_cities(counting)
 
-	for i in range(0,len(data)-1):
-		regionPM2 = regionPM(city = data[i]['area'], area = data[i]['position_name'], aqi = data[i]['aqi'], quality = data[i]['quality'], pm2_5 = data[i]['pm2_5'], pm10 = data[i]['pm10'])
-		regionPM2.save()
+	#delete old data base on the counting value
+	data_to_delete = regionPM.objects.filter(count = (counting-1)).delete()
 
+	# update the counting value in a txt
+	w = open('count.txt','w')
+	w.write(str(counting + 1))
+	w.close()
+
+	#TODO Delete the null values: PM 2.5 values = 0
+
+	# Filter to choose the specific cities.
 	if request.method == 'POST':
 		form = UserForm(request.POST)
 		if form.is_valid():
 			#print form.cleaned_data
 			inputValue = form.cleaned_data['name']
+			# filter: return the values which matches the scheme.
 			searchResult = regionPM.objects.filter(city = inputValue)
 			return render_to_response('result.html', {'inputValue': inputValue, 'searchResult':searchResult})
 			# return HttpResponse(searchResult[1])
@@ -86,7 +84,7 @@ def getCities(request):
 	regionDisplay = regionPM.objects.all()
 	return render_to_response('select.html', {'regionPMDisplay': regionDisplay, 'form':form})
 
-
+	
 def index(request):
 	if request.method == 'POST':
 		form = UserForm(request.POST)
@@ -109,6 +107,42 @@ def index(request):
 
 def first_page(request):
 	return render_to_response('index.html')
+
+# initialize the database which represents the variables of the city
+def initialize_database(request):
+	url = ('http://www.pm25.in/api/querys/all_cities.json?token=ou5URozsKHUrWLfLyDky')
+	content = urllib2.urlopen(url).read()
+	data = json.loads(content)
+	l = list()
+	l.append(data[0]['area'])
+	for i in range(1,len(data)-1):
+		if data[i]['area'] != data[i-1]['area']:
+			l.append(data[i]['area'])  # 拿到城市的列表
+
+	l2 = list(set(l))
+
+	# Save city 数据库
+	for  j in range(0,len(l2)-1):      
+		city2 = city(name = l2[j])
+		city2.save()
+
+	# Save Region city 数据库
+	for i in range(0,len(data)-1):
+		region2 = region(name = data[i]['area'], area = data[i]['position_name'])
+		region2.save()
+	return HttpResponse('initialize_database: OK!')
+
+def delete_database(request):
+	city.objects.all().delete()
+	region.objects.all().delete()
+	return HttpResponse('Delete databases: city, region: OK!')
+
+def delete_city_data(request):
+	data_to_delete = regionPM.objects.filter(count = 1).delete()
+	return HttpResponse('delete count = 1 OK')
+
+# Ref: 
+# 1. 一次更新多个对象:http://docs.oneele.com/django/topics/db/queries.html#topics-db-queries-update
 
 
 
