@@ -2,6 +2,7 @@
 <head>
 	<title>中国各城市空气质量</title>
 	<!-- <link rel="stylesheet" type="text/css" href="../../static/style.css"> -->
+	<link href="/static/css/bootstrap.min.css" rel="stylesheet">
 	<style type="text/css">
 	body{text-align:center;}
 	table{width: 800px;border-collapse: collapse;}
@@ -9,7 +10,7 @@
 	#custom_width{width:11%;}
 	#area{width:16%;}
 	#quality{width:15%;}
-	p{font-family:arial,helvetica,sans-serif; font-size: 25px; color: #2CC5DA;text-align:center;}
+	/*p{font-family:arial,helvetica,sans-serif; font-size: 25px; color: #2CC5DA;text-align:center;}*/
 	
 	</style>
 </head>
@@ -18,9 +19,10 @@
 
 	<h1 align = center>中国各城市空气指数查询</h1>
 	<form method = 'post'>
-		{{form}}
-		<input type = 'submit' value = 'ok' />
-
+		<div class="input group">
+			{{form}}
+			<input type = 'submit' value = 'ok' class = 'btn btn-success'/>
+		</div>
 	</form>
 	<table align = center >
 		<tr>
@@ -33,4 +35,14 @@
 	<table align = center><tr><td id = 'custom_width'>{{everyRegion.city}}</td><td id='area'>{{everyRegion.area}}</td><td id = 'custom_width'>{{everyRegion.aqi}}</td><td id='quality'>{{everyRegion.quality}}</td><td id = 'custom_width'>{{everyRegion.pm2_5}}</td><td id = 'custom_width'>{{everyRegion.pm10}}</td><td>{{everyRegion.addTime}}</td></tr></table>
 	{%endfor%}
 	<img src="" width = 640>
+
+
+	<hr>
+      <footer>
+        <p>&copy; <a href="caizhibin.com">Cai Zhibin</a> in Jinan University</p>
+      </footer>
+
+<script src="/static/js/jquery.min.js"></script>
+<script src="/static/js/bootstrap.min.js"></script>
+
 </body>
