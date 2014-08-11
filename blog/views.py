@@ -56,20 +56,20 @@ def getCities(request):
     # city and quality may be null
 
     # read count of the update
-    f = open('count.txt', 'r')
-    counting = int(f.readline())
-    f.close()
+#    f = open('count.txt', 'r')
+ #   counting = int(f.readline())
+  #  f.close()
 
     # Grad data using PM25.in's API
-    get_PM_and_Air_data_of_cities(counting)
+  #  get_PM_and_Air_data_of_cities(counting)
 
     # delete old data base on the counting value
-    data_to_delete = regionPM.objects.filter(count=(counting - 1)).delete()
+  #  data_to_delete = regionPM.objects.filter(count=(counting - 1)).delete()
 
     # update the counting value in a txt
-    w = open('count.txt', 'w')
-    w.write(str(counting + 1))
-    w.close()  # TODO Delete the null values: PM 2.5 values = 0
+ #   w = open('count.txt', 'w')
+ #   w.write(str(counting + 1))
+ #   w.close()  # TODO Delete the null values: PM 2.5 values = 0
 
     # Filter to choose the specific cities.
     if request.method == 'POST':
@@ -109,12 +109,12 @@ def index(request):
 
 
 def first_page(request):
-    return render_to_response('index.html')
+    return render_to_response('index_bootstrap.html')
 
 
 # initialize the database which represents the variables of the city
 def initialize_database(request):
-    url = ('http://www.pm25.in/api/querys/all_cities.json?token=ou5URozsKHUrWLfLyDky')
+    url = ('http://www.pm25.in/api/querys/all_cities.json?token=')
     content = urllib2.urlopen(url).read()
     data = json.loads(content)
     l = list()
@@ -137,15 +137,8 @@ def initialize_database(request):
     return HttpResponse('initialize_database: OK!')
 
 
-def delete_database(request):
-    city.objects.all().delete()
-    region.objects.all().delete()
-    return HttpResponse('Delete databases: city, region: OK!')
 
 
-def delete_city_data(request):
-    data_to_delete = regionPM.objects.filter(count=1).delete()
-    return HttpResponse('delete count = 1 OK')
 
 # Ref: 
 # 1. 一次更新多个对象:http://docs.oneele.com/django/topics/db/queries.html#topics-db-queries-update

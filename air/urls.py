@@ -1,7 +1,7 @@
 from django.conf.urls import patterns, include, url
 import settings
 from django.contrib import admin
-from blog.views import hello, current_url_view_good, getCities, index, reg, initialize_database, delete_city_data
+from blog.views import hello, current_url_view_good, getCities, index, reg, initialize_database
 admin.autodiscover()
 
 urlpatterns = patterns('',
@@ -12,11 +12,10 @@ urlpatterns = patterns('',
     url(r'^admin/', include(admin.site.urls)),
     ('^hello/$', hello),
     ('^path/$',current_url_view_good),
-    ('^getdata/$',getCities),
+   # ('^getdata/$',getCities),
     ('^index/$',index),
     ('^register/$',reg),
     ('^init/$',initialize_database),
-    ('^delete/$',delete_city_data),
     url(r'^$', 'blog.views.first_page'),
     # url(r'^static/(?P<path>.*)$', 'django.views.static.serve',
     #                                         { 'document_root':settings.STATIC_ROOT }),
