@@ -20,9 +20,9 @@ Nexp Step Features(Not done yet)
 1. Data visualization: improving the front-end design of the websites.
 3. Got all the data and do the sorting and ranking of all the cities in China.
 4. Improve database performance.
-- [x] Deploy into my server.
-- [x] Grab the latest data and delete the old ones.
-- [x] BootStrap integration
+5. - [x] Deploy into my server.
+6. - [x] Grab the latest data and delete the old ones.
+7. - [x] BootStrap integration
 
 
 License
