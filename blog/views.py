@@ -25,7 +25,6 @@ def reg(request):
     return render_to_response('register.html', {'form': form})
 
 
-# Create your views here.
 
 
 def hello(request):
@@ -55,21 +54,6 @@ def get_PM_and_Air_data_of_cities(the_counting):
 def getCities(request):
     # city and quality may be null
 
-    # read count of the update
-#    f = open('count.txt', 'r')
- #   counting = int(f.readline())
-  #  f.close()
-
-    # Grad data using PM25.in's API
-  #  get_PM_and_Air_data_of_cities(counting)
-
-    # delete old data base on the counting value
-  #  data_to_delete = regionPM.objects.filter(count=(counting - 1)).delete()
-
-    # update the counting value in a txt
- #   w = open('count.txt', 'w')
- #   w.write(str(counting + 1))
- #   w.close()  # TODO Delete the null values: PM 2.5 values = 0
 
     # Filter to choose the specific cities.
     if request.method == 'POST':

@@ -8,7 +8,7 @@ import urllib2
 import json
 from django.db import models
 
-countreading=open('count.txt', 'r')
+countreading=open('count_hourly.txt', 'r')
 counting=int(countreading.readline())
 countreading.close()
 # Grad data using PM25.in's API
@@ -25,6 +25,6 @@ items = []
 items=regionPM.objects.filter(count=(counting - 1))
 items.delete()
 # update the counting value in a txt
-writingcount=open('count.txt', 'w')
+writingcount=open('count_hourly.txt', 'w')
 writingcount.write(str(counting + 1))
 writingcount.close()
