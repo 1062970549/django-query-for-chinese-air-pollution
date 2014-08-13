@@ -108,6 +108,28 @@ def index(request):
     return render_to_response('select.html', {'regionPMDisplay': r, 'form': form})
 
 
+
+def indexcity(request):
+    if request.method == 'POST':
+        form = UserForm(request.POST)
+        if form.is_valid():
+            inputValue = form.cleaned_data['name']
+            searchResult = cityPM.objects.filter(city=inputValue)
+            return render_to_response('cityResult.html',
+                                      {'inputValue': inputValue, 'form': form, 'searchResult': searchResult})
+    else:
+        form = UserForm()
+
+    cityPMDisplay = cityPM.objects.all()
+    r = list()
+    r.append(cityPMDisplay[0])
+    for i in range(1, len(cityPMDisplay) - 1):
+        r.append(cityPMDisplay[i])
+
+    return render_to_response('citypm.html', {'cityPMDisplay': r, 'form': form})
+
+
+
 def first_page(request):
     return render_to_response('index_bootstrap.html')
 

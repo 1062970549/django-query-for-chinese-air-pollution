@@ -11,15 +11,28 @@ class city(models.Model):
         return self.name
 
 class cityPM(models.Model):
-    name = models.CharField(max_length=30)
+    # name = models.CharField(max_length=30)
+    # aqi = models.IntegerField(default = 0)
+    # quality = models.CharField(max_length=40)
+    # pm2_5 = models.IntegerField(default = 0)
+    # pm10 = models.IntegerField(default = 0)
+
+    # def __unicode__(self):
+    #     return u'%s %s %s %s %s' % (self.name, self.aqi, self.quality, self.pm2_5, self.pm10)
+    city = models.CharField(max_length=30)
     aqi = models.IntegerField(default = 0)
-    quality = models.CharField(max_length=40)
+    quality = models.CharField(max_length=40,null = True, blank = True, default = '')
     pm2_5 = models.IntegerField(default = 0)
     pm10 = models.IntegerField(default = 0)
-
+    o3 = models.IntegerField(default = 0)
+    co = models.IntegerField(default = 0)
+    no2 = models.IntegerField(default = 0)
+    so2 = models.IntegerField(default = 0)
+    addTime = models.CharField(max_length=30)
+    count = models.IntegerField(default = 1)
     def __unicode__(self):
-        return u'%s %s %s %s %s' % (self.name, self.aqi, self.quality, self.pm2_5, self.pm10)
-    
+        return u'%s %f %s %f %f %f %f %f %f %s %f' % (self.city, float(self.aqi), self.quality, float(self.pm2_5), float(self.pm10),float(self.o3),float(self.co),float(self.no2),float(self.so2),self.addTime,float(self.count))
+   
 
 
 class cityAir(models.Model):
