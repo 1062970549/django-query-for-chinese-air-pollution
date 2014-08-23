@@ -24,6 +24,11 @@ for line in data:
 items = []
 items=regionPM.objects.filter(count=(counting - 1))
 items.delete()
+
+# delete invalid data
+region_invalid_data = []
+region_invalid_data = regionPM.objects.filter(pm2_5=0)
+region_invalid_data.delete()
 # update the counting value in a txt
 writingcount=open('count_hourly.txt', 'w')
 writingcount.write(str(counting + 1))

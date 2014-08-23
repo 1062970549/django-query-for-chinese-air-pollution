@@ -23,6 +23,11 @@ for line in city_data:
 items = []
 items=cityPM.objects.filter(count=(counting - 1))
 items.delete()
+
+# delete invalid data
+city_invalid_data = []
+city_invalid_data = cityPM.objects.filter(pm2_5=0)
+city_invalid_data.delete()
 # update the counting value in a txt
 writingcount=open('count.txt', 'w')
 writingcount.write(str(counting + 1))
