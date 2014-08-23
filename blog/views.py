@@ -143,7 +143,15 @@ def initialize_database(request):
     return HttpResponse('initialize_database: OK!')
 
 
+def top_30_city(request):
+    top_30_city = cityPM.objects.order_by('pm2_5','aqi')[:30]
+    top_city_list = list(top_30_city)
+    return render_to_response('billboard.html', {'cityPMDisplay': top_city_list})
 
+def worst_30_city(request):
+    worst_30_city = cityPM.objects.order_by('-pm2_5','-aqi')[:30]
+    worst_city_list = list(worst_30_city)
+    return render_to_response('billboard.html', {'cityPMDisplay': worst_city_list})
 
 
 # Ref: 

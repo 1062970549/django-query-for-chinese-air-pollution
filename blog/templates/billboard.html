@@ -1,0 +1,62 @@
+
+<head>
+	<title>City Air in China</title>
+	<!-- <link rel="stylesheet" type="text/css" href="../../static/style.css"> -->
+	<link href="/static/css/bootstrap.min.css" rel="stylesheet">
+	<style type="text/css">
+	body{text-align:center;}
+	table{width: 800px;border-collapse: collapse;}
+	td{border: 1px solid #ddd;}
+	#custom_width{width:11%;}
+	#area{width:16%;}
+	#quality{width:15%;}
+	</style>
+</head>
+
+<body>
+
+	{% include 'navbar.html' %}
+
+	<div class="jumbotron">
+      <div class="container">        
+        <h3 align = center>PM 2.5 ranking</h3>
+		<!--<form method = 'post'>
+			<div class="input group">
+				{{form}}
+				<input type = 'submit' value = 'ok' class = 'btn btn-success'/>
+			</div>
+		</form> -->
+		
+
+	<table class="table" align = center>
+        <tr><th>City</th><th>AQI</th><th>Quality</th><th>PM 2.5</th><th>PM 10</th><th>o3</th><th>co</th><th>no2</th><th>so2</th><th>Time</th></tr>
+		{% for everycity in cityPMDisplay%}
+		<tr>	
+			<td id = 'custom_width'>{{everycity.city}}</td>
+      <td id = 'custom_width'>{{everycity.aqi}}</td>
+      <td id='quality'>{{everycity.quality}}</td>
+      <td id = 'custom_width'>{{everycity.pm2_5}}</td>
+      <td id = 'custom_width'>{{everycity.pm10}}</td>
+      <td id = 'custom_width'>{{everycity.o3}}</td>
+      <td id = 'custom_width'>{{everycity.co}}</td>
+      <td id = 'custom_width'>{{everycity.no2}}</td>
+      <td id = 'custom_width'>{{everycity.so2}}</td>
+      <td>{{everycity.addTime}}</td>
+		</tr>
+		{%endfor%}
+	</table>
+      </div>
+    </div>
+
+	
+	
+
+	<hr>
+      <footer>
+      	<p>&copy; <a href="caizhibin.com">Cai Zhibin</a> in Jinan University</p>
+      </footer>
+
+<script src="/static/js/jquery.min.js"></script>
+<script src="/static/js/bootstrap.min.js"></script>
+
+</body>

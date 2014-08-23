@@ -24,10 +24,33 @@ items = []
 items=cityPM.objects.filter(count=(counting - 1))
 items.delete()
 
+
+
+
 # delete invalid data
 city_invalid_data = []
 city_invalid_data = cityPM.objects.filter(pm2_5=0)
 city_invalid_data.delete()
+
+
+
+
+
+# Feature: Grab the data of the best 30 city order by PM2.5
+best_30_city = cityPM.objects.order_by('pm2_5','aqi')[:30]
+	# Writing data into tsv file
+write_first_line = open('blog/static/data/city_data.tsv','w')
+write_first_line.write('city	PM2_5\n')
+write_first_line.close()
+	# open writing process in adding mode
+write_data = open('blog/static/data/city_data.tsv','a')
+for city in best_30_city:
+	write_data.write(city.city.encode('utf-8')+'\t'+str(city.pm2_5)+'\n')
+write_data.close()
+
+
+
+
 # update the counting value in a txt
 writingcount=open('count.txt', 'w')
 writingcount.write(str(counting + 1))
