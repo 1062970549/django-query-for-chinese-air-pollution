@@ -28,7 +28,7 @@ def reg(request):
 
 
 def hello(request):
-    return HttpResponse("Hello World!")
+    return render_to_response('data_visual.html')
 
 
 def current_url_view_good(request):
