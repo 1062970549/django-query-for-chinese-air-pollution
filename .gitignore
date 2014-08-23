@@ -8,3 +8,10 @@
 *.egg-info
 dist
 build
+
+
+
+
+#text
+count_hourly.txt
+count.txt
