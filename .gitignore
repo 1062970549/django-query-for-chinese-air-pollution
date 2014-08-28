@@ -12,6 +12,8 @@ dist
 build
 
 
+blog/grab_data_plot.py
+
 
 
 #text

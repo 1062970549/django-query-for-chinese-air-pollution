@@ -28,7 +28,7 @@ def reg(request):
 
 
 def hello(request):
-    return render_to_response('data_visual.html')
+    return render_to_response('data_visual_test.html')
 
 
 def current_url_view_good(request):
@@ -152,6 +152,9 @@ def worst_30_city(request):
     worst_30_city = cityPM.objects.order_by('-pm2_5','-aqi')[:30]
     worst_city_list = list(worst_30_city)
     return render_to_response('billboard.html', {'cityPMDisplay': worst_city_list})
+
+def PM2_5_visualization(request):
+    return render_to_response('PM2_5_visualization.html')
 
 
 # Ref: 

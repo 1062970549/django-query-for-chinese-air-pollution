@@ -38,6 +38,7 @@ city_invalid_data.delete()
 
 # Feature: Grab the data of the best 30 city order by PM2.5
 best_30_city = cityPM.objects.order_by('pm2_5','aqi')[:30]
+worst_30_city = cityPM.objects.order_by('-pm2_5','-aqi')[:30]
 	# Writing data into tsv file
 write_first_line = open('blog/static/data/city_data.tsv','w')
 write_first_line.write('city	PM2_5\n')
@@ -46,6 +47,8 @@ write_first_line.close()
 write_data = open('blog/static/data/city_data.tsv','a')
 for city in best_30_city:
 	write_data.write(city.city.encode('utf-8')+'\t'+str(city.pm2_5)+'\n')
+for worst_city in worst_30_city:
+	write_data.write(worst_city.city.encode('utf-8')+'\t'+str(worst_city.pm2_5)+'\n')
 write_data.close()
 
 
