@@ -1,16 +1,14 @@
 .DS_Store 
 
 # Python:
-*.py[cod]
-*.pyc
-blog/*.pyc
-air/*.pyc
-*.so
-*.egg
-*.egg-info
-dist
-build
-
+air/__init__.pyc
+air/settings.pyc
+air/urls.pyc
+air/wsgi.pyc
+blog/__init__.pyc
+blog/admin.pyc
+blog/models.pyc
+blog/views.pyc
 
 blog/grab_data_plot.py
 
