@@ -75,6 +75,8 @@
                   width = 960
                   height = 640
 
+
+
               var formatPercent = d3.format(".0%");
 
               var x = d3.scale.ordinal()
@@ -96,7 +98,7 @@
                 .attr('class', 'd3-tip')
                 .offset([-10, 0])
                 .html(function(d) {
-                  return "<strong>PM2_5:</strong> <span style='color:red'>" + d.PM2_5 + "</span>";
+                  return d.city + " <strong>PM2_5:</strong> <span style='color:red'>" + d.PM2_5 + "</span>";
                 })
               var svg = d3.select("#best-cities-histogram").append("svg")
                   .attr("width", width + margin.left + margin.right)
@@ -113,11 +115,13 @@
                 svg.append("g")
                   .attr("class", "x axis")
                   .attr("transform", "translate(0," + height + ")")
+                  .attr("height","50")
                   .call(xAxis)
                 .selectAll("text")
                   .attr("y", 0)
                   .attr("x", 9)
-                  .attr("dy", ".35em")
+                  .attr("dy", "0.35em")
+                  // .attr("dx","-0.8em")
                   .attr("transform", "rotate(90)")
                   .style("text-anchor", "start");
                   
