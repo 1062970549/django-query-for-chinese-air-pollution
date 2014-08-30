@@ -77,6 +77,16 @@
 
 
 
+              var w = window,
+              d = document,
+              e = d.documentElement,
+              g = d.getElementsByTagName('body')[0],
+              width = w.innerWidth || e.clientWidth || g.clientWidth,
+              height = w.innerHeight|| e.clientHeight|| g.clientHeight;
+              width = width - 100;
+              height = height - 200;
+              // alert(width + ' × ' + height);
+
               var formatPercent = d3.format(".0%");
 
               var x = d3.scale.ordinal()
