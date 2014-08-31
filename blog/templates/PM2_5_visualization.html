@@ -30,36 +30,25 @@
 
     {% include 'navbar.html' %}
 
-
-
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron">
       <div class="container">        
         <br>
-        <h3>This is the data Visualization using <a href="http://d3js.org/">d3</a>.</h3>
-        
+        <h3>This is the data Visualization using <a href="http://d3js.org/">d3</a>.</h3>   
+        <h2>Best VS Worst</h2>
+          <div id="best-cities-histogram">
+          </div>
     </div>
     </div> 
 
     
     <div class="container">
-      <!-- Example row of columns -->
-      <div class="row">
-        
-        <div class="col-md-12">
-          <h2>Best VS Worst</h2>
-          <div id="best-cities-histogram">
-          </div>
-        </div>
-        
-      </div>
       
-
-      <hr>
-      <footer>
-        <p>&copy; <a href="caizhibin.com">Cai Zhibin</a> in Jinan University</p>
-      </footer>
+          
+       
     </div> 
+    {% include 'footer.html' %}
+  
 
 
     <!-- Bootstrap core JavaScript
@@ -67,13 +56,13 @@
     <!-- Placed at the end of the document so the pages load faster -->
    
 
-    <!-- Best cities code -->
+    <!-- d3.js code for the Ranking: Best VS Worst-->
     <script>
               var margin = {top: 40, right: 20, bottom: 30, left: 40},
-                  // width = 960 - margin.left - margin.right,
-                  // height = 500 - margin.top - margin.bottom;
-                  width = 960
-                  height = 640
+                  width = 960 - margin.left - margin.right,
+                  height = 500 - margin.top - margin.bottom;
+                  // width = 960
+                  // height = 640
 
 
 
@@ -83,9 +72,18 @@
               g = d.getElementsByTagName('body')[0],
               width = w.innerWidth || e.clientWidth || g.clientWidth,
               height = w.innerHeight|| e.clientHeight|| g.clientHeight;
-              width = width - 100;
-              height = height - 200;
-              // alert(width + ' × ' + height);
+              width = 1100;
+              height = 640;
+              
+
+
+              // var color = d3.scale.linear()
+              //            .domain([0,50])//input
+              //            .range(["green","red"])//output
+              var color = d3.scale.linear()
+                         .domain([0,16])//input
+                         .range(["#19D311","#E5B909","red"])//output
+
 
               var formatPercent = d3.format(".0%");
 
@@ -113,6 +111,7 @@
               var svg = d3.select("#best-cities-histogram").append("svg")
                   .attr("width", width + margin.left + margin.right)
                   .attr("height", height + margin.top + margin.bottom)
+                  .attr("align","center")
                 .append("g")
                   .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
@@ -127,12 +126,12 @@
                   .attr("transform", "translate(0," + height + ")")
                   .attr("height","50")
                   // .call(xAxis)
-                // .selectAll("text")
-                //   .attr("y", 0)
-                //   .attr("x", 9)
-                //   .attr("dy", "0.35em")
-                //   .attr("transform", "rotate(90)")
-                //   .style("text-anchor", "start");
+                  // .selectAll("text")
+                  //   .attr("y", 0)
+                  //   .attr("x", 9)
+                  //   .attr("dy", "0.35em")
+                  //   .attr("transform", "rotate(90)")
+                  //   .style("text-anchor", "start");
                   
 
                 svg.append("g")
@@ -153,6 +152,7 @@
                     .attr("width", x.rangeBand())
                     .attr("y", function(d) { return y(d.PM2_5); })
                     .attr("height", function(d) { return height - y(d.PM2_5); })
+                    .attr("fill", function(d) {return color(d.PM2_5)})
                     .on('mouseover', tip.show)
                     .on('mouseout', tip.hide)
 
@@ -163,10 +163,6 @@
                 return d;
               }
     </script>
-
-    <!-- Worst cities code -->
-  
-
     <script src="/static/js/jquery.min.js"></script>
     <script src="/static/js/bootstrap.min.js"></script>
   </body>

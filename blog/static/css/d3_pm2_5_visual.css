@@ -5,10 +5,10 @@
   shape-rendering: crispEdges;
 }
 
-.bar {
+/*.bar {
   fill: orange;
 }
-
+*/
 .bar:hover {
   fill: orangered ;
 }

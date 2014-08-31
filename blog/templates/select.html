@@ -1,17 +1,14 @@
 
 <head>
 	<title>中国各城市空气质量</title>
-	<!-- <link rel="stylesheet" type="text/css" href="../../static/style.css"> -->
 	<link href="/static/css/bootstrap.min.css" rel="stylesheet">
+	<link href="/static/css/jumbotron.css" rel="stylesheet">
 	<style type="text/css">
-	body{text-align:center;}
 	table{width: 800px;border-collapse: collapse;}
 	td{border: 1px solid #ddd;}
 	#custom_width{width:11%;}
 	#area{width:16%;}
 	#quality{width:15%;}
-	/*p{font-family:arial,helvetica,sans-serif; font-size: 25px; color: #2CC5DA;text-align:center;}*/
-	
 	</style>
 </head>
 
@@ -23,7 +20,7 @@
       <div class="container">        
         <h3 align = center>Air Quality Query in China</h3>
 		<form method = 'post'>
-			<div class="input group">
+			<div class="input group" align=center>
 				{{form}}
 				<input type = 'submit' value = 'ok' class = 'btn btn-success'/>
 			</div>
@@ -37,16 +34,11 @@
 		</tr>
 		{%endfor%}
 	</table>
-      </div>
     </div>
-
+    </div>
+    
+    {% include 'footer.html' %}
 	
-	
-
-	<hr>
-      <footer>
-      	<p>&copy; <a href="caizhibin.com">Cai Zhibin</a> in Jinan University</p>
-      </footer>
 
 <script src="/static/js/jquery.min.js"></script>
 <script src="/static/js/bootstrap.min.js"></script>
