@@ -12,8 +12,7 @@ blog/views.pyc
 
 blog/grab_data_plot.py
 
-
-
+blog/static/data/city_data.tsv
 #text
 count_hourly.txt
 count.txt

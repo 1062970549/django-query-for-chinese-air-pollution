@@ -80,9 +80,9 @@
               // var color = d3.scale.linear()
               //            .domain([0,50])//input
               //            .range(["green","red"])//output
-              var color = d3.scale.linear()
-                         .domain([0,16])//input
-                         .range(["#19D311","#E5B909","red"])//output
+              var color = d3.scale.quantize()
+                         .domain([0,300])//input
+                         .range(["#19D311","#D8D014","#DDA30D","#DD810B","#F57703","#red","#000000"])//output
 
 
               var formatPercent = d3.format(".0%");
