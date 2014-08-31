@@ -80,9 +80,9 @@
               // var color = d3.scale.linear()
               //            .domain([0,50])//input
               //            .range(["green","red"])//output
-              var color = d3.scale.linear()
-                         .domain([0,16])//input
-                         .range(["#19D311","#E5B909","red"])//output
+              var color = d3.scale.quantize()
+                         .domain([0,300])//input
+                         .range(["#19D311","#D8D014","#DDA30D","#DD810B","#F57703","#red","#000000"])//output
 
 
               var formatPercent = d3.format(".0%");
@@ -95,6 +95,7 @@
 
               var xAxis = d3.svg.axis()
                   .scale(x)
+                  .ticks(10)
                   .orient("bottom");
 
               var yAxis = d3.svg.axis()
@@ -151,10 +152,14 @@
                     .attr("x", function(d) { return x(d.city); })
                     .attr("width", x.rangeBand())
                     .attr("y", function(d) { return y(d.PM2_5); })
-                    .attr("height", function(d) { return height - y(d.PM2_5); })
+                    .attr("height", function(d) { return 0;})
                     .attr("fill", function(d) {return color(d.PM2_5)})
                     .on('mouseover', tip.show)
                     .on('mouseout', tip.hide)
+                    .transition().each("start",function(){ d3.select(this).transition().duration(800).attr("height",function(d) { return height - y(d.PM2_5); })})
+
+                    // .attr("height", function(d) { return height - y(d.PM2_5); })
+
 
               });
 
