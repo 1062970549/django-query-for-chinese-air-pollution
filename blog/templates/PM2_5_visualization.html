@@ -93,6 +93,7 @@
               var y = d3.scale.linear()
                   .range([height,0]);
 
+
               var xAxis = d3.svg.axis()
                   .scale(x)
                   .ticks(10)
@@ -165,6 +166,7 @@
                         .attr("y",function(d) { return height - d.PM2_5; })
                         .attr("height",function(d){ return d.PM2_5})
                       })
+
 
 
 
