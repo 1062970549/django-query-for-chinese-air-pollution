@@ -73,7 +73,7 @@
               width = w.innerWidth || e.clientWidth || g.clientWidth,
               height = w.innerHeight|| e.clientHeight|| g.clientHeight;
               width = 1100;
-              height = 640;
+              height = height - 300;
               
 
 
@@ -91,7 +91,7 @@
                   .rangeRoundBands([0, width], .1);
 
               var y = d3.scale.linear()
-                  .range([height, 0]);
+                  .range([height,0]);
 
               var xAxis = d3.svg.axis()
                   .scale(x)
@@ -151,12 +151,23 @@
                     .attr("class", "bar")
                     .attr("x", function(d) { return x(d.city); })
                     .attr("width", x.rangeBand())
-                    .attr("y", function(d) { return y(d.PM2_5); })
+                    .attr("y",height)
                     .attr("height", function(d) { return 0;})
+                    // .attr("y", function(d) { return y(d.PM2_5); })
                     .attr("fill", function(d) {return color(d.PM2_5)})
                     .on('mouseover', tip.show)
                     .on('mouseout', tip.hide)
-                    .transition().each("start",function(){ d3.select(this).transition().duration(800).attr("height",function(d) { return height - y(d.PM2_5); })})
+                    // .transition().each("start",function(){ d3.select(this).transition().duration(800).attr("height",function(d) { return height - y(d.PM2_5); })})
+                    .transition().each("start",function(){ 
+                      d3.select(this)
+                      .transition()
+                        .duration(800)
+                        .attr("y",function(d) { return height - d.PM2_5; })
+                        .attr("height",function(d){ return d.PM2_5})
+                      })
+
+
+
 
                     // .attr("height", function(d) { return height - y(d.PM2_5); })
 
