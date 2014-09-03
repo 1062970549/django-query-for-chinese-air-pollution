@@ -1,4 +1,4 @@
-var tooltip = d3.select("body").append("div")
+var tooltip = d3.select("#China_map_histogram").append("div")
     .attr("id", "tooltip")
     .style("display", "none")
     .style("position", "absolute")
@@ -15,7 +15,7 @@ var width = 960, height = 600;
 var proj = d3.geo.mercator().center([105, 38]).scale(750).translate([width/2, height/2]);
 var path = d3.geo.path().projection(proj);
 
-var svg = d3.select("body").append("svg")
+var svg = d3.select("#China_map_histogram").append("svg")
     .attr("width", 1280)
     .attr("height", 960);
 
