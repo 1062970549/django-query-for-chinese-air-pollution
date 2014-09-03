@@ -156,6 +156,9 @@ def worst_30_city(request):
 def PM2_5_visualization(request):
     return render_to_response('PM2_5_visualization.html')
 
+def china_map_histogram(request):
+    return render_to_response('footprint-china.html')
+
 
 # Ref: 
 # 1. 一次更新多个对象:http://docs.oneele.com/django/topics/db/queries.html#topics-db-queries-update
