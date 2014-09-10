@@ -1,0 +1,1762 @@
+*** Starting uWSGI 2.0.7 (32bit) on [Sat Sep  6 09:24:44 2014] ***
+compiled with version: 4.6.3 on 06 September 2014 09:23:05
+os: Linux-3.8.0-29-generic #42~precise1-Ubuntu SMP Wed Aug 14 15:31:16 UTC 2013
+nodename: DigitalOceanUbuntuUSA
+machine: i686
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /root/Projects/django-query-for-chinese-air-pollution
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 3840
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :8077 fd 3
+Python version: 2.7.3 (default, Feb 27 2014, 20:11:37)  [GCC 4.6.3]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0xa072460
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 255952 bytes (249 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0xa072460 pid: 25010 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 25010, cores: 1)
+spawned uWSGI worker 2 (pid: 25016, cores: 1)
+spawned uWSGI worker 3 (pid: 25017, cores: 1)
+spawned uWSGI worker 4 (pid: 25018, cores: 1)
+*** Starting uWSGI 2.0.7 (32bit) on [Sat Sep  6 09:29:35 2014] ***
+compiled with version: 4.6.3 on 06 September 2014 09:23:05
+os: Linux-3.8.0-29-generic #42~precise1-Ubuntu SMP Wed Aug 14 15:31:16 UTC 2013
+nodename: DigitalOceanUbuntuUSA
+machine: i686
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /root/Projects/django-query-for-chinese-air-pollution
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 3840
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:8077).
+bind(): Address already in use [core/socket.c line 759]
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+*** Starting uWSGI 2.0.7 (32bit) on [Sun Sep  7 12:03:09 2014] ***
+compiled with version: 4.6.3 on 06 September 2014 09:23:05
+os: Linux-3.8.0-29-generic #42~precise1-Ubuntu SMP Wed Aug 14 15:31:16 UTC 2013
+nodename: DigitalOceanUbuntuUSA
+machine: i686
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /root/Projects/django-query-for-chinese-air-pollution
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 3840
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :8077 fd 3
+Python version: 2.7.3 (default, Feb 27 2014, 20:11:37)  [GCC 4.6.3]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x8a93428
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 255952 bytes (249 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x8a93428 pid: 4684 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 4684, cores: 1)
+spawned uWSGI worker 2 (pid: 4690, cores: 1)
+spawned uWSGI worker 3 (pid: 4691, cores: 1)
+spawned uWSGI worker 4 (pid: 4692, cores: 1)
+*** Starting uWSGI 2.0.7 (32bit) on [Sun Sep  7 12:14:48 2014] ***
+compiled with version: 4.6.3 on 06 September 2014 09:23:05
+os: Linux-3.8.0-29-generic #42~precise1-Ubuntu SMP Wed Aug 14 15:31:16 UTC 2013
+nodename: DigitalOceanUbuntuUSA
+machine: i686
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /root/Projects/django-query-for-chinese-air-pollution
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 3840
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:8077).
+bind(): Address already in use [core/socket.c line 759]
+*** Starting uWSGI 2.0.7 (32bit) on [Sun Sep  7 12:19:16 2014] ***
+compiled with version: 4.6.3 on 06 September 2014 09:23:05
+os: Linux-3.8.0-29-generic #42~precise1-Ubuntu SMP Wed Aug 14 15:31:16 UTC 2013
+nodename: DigitalOceanUbuntuUSA
+machine: i686
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /root/Projects/django-query-for-chinese-air-pollution
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 3840
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :8077 fd 3
+Python version: 2.7.3 (default, Feb 27 2014, 20:11:37)  [GCC 4.6.3]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x81e5438
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 255952 bytes (249 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x81e5438 pid: 5405 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 5405, cores: 1)
+spawned uWSGI worker 2 (pid: 5411, cores: 1)
+spawned uWSGI worker 3 (pid: 5412, cores: 1)
+spawned uWSGI worker 4 (pid: 5413, cores: 1)
+*** Starting uWSGI 2.0.7 (32bit) on [Sun Sep  7 22:45:43 2014] ***
+compiled with version: 4.6.3 on 06 September 2014 09:23:05
+os: Linux-3.8.0-29-generic #42~precise1-Ubuntu SMP Wed Aug 14 15:31:16 UTC 2013
+nodename: DigitalOceanUbuntuUSA
+machine: i686
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /root/Projects/django-query-for-chinese-air-pollution
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 3840
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:8077).
+bind(): Address already in use [core/socket.c line 759]
+[pid: 5405|app: 0|req: 1/1] 106.185.28.187 () {38 vars in 654 bytes} [Mon Sep  8 02:45:49 2014] GET / => generated 4515 bytes in 165 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 5411|app: 0|req: 1/2] 106.185.28.187 () {40 vars in 658 bytes} [Mon Sep  8 02:45:51 2014] GET /favicon.ico => generated 3166 bytes in 149 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 5412|app: 0|req: 1/3] 106.185.28.187 () {38 vars in 654 bytes} [Mon Sep  8 02:45:52 2014] GET / => generated 4515 bytes in 146 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 5411|app: 0|req: 2/4] 106.185.28.187 () {36 vars in 601 bytes} [Mon Sep  8 02:46:07 2014] GET / => generated 4515 bytes in 9 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 5412|app: 0|req: 2/5] 106.185.28.187 () {38 vars in 609 bytes} [Mon Sep  8 02:46:08 2014] GET /favicon.ico => generated 3170 bytes in 6 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 5411|app: 0|req: 3/6] 106.185.28.187 () {36 vars in 653 bytes} [Mon Sep  8 02:46:27 2014] GET / => generated 4515 bytes in 4 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 5413|app: 0|req: 1/7] 106.185.28.187 () {36 vars in 604 bytes} [Mon Sep  8 02:46:28 2014] GET /favicon.ico => generated 3170 bytes in 153 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 5411|app: 0|req: 4/8] 106.185.28.187 () {36 vars in 604 bytes} [Mon Sep  8 02:46:29 2014] GET /favicon.ico => generated 3170 bytes in 5 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 5412|app: 0|req: 3/9] 106.185.28.187 () {36 vars in 646 bytes} [Mon Sep  8 02:48:31 2014] GET / => generated 4515 bytes in 5 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 5413|app: 0|req: 2/10] 106.185.28.187 () {36 vars in 597 bytes} [Mon Sep  8 02:48:32 2014] GET /favicon.ico => generated 3165 bytes in 6 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 5411|app: 0|req: 5/11] 106.185.28.187 () {36 vars in 597 bytes} [Mon Sep  8 02:48:33 2014] GET /favicon.ico => generated 3165 bytes in 5 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.7 (32bit) on [Sun Sep  7 22:58:17 2014] ***
+compiled with version: 4.6.3 on 06 September 2014 09:23:05
+os: Linux-3.8.0-29-generic #42~precise1-Ubuntu SMP Wed Aug 14 15:31:16 UTC 2013
+nodename: DigitalOceanUbuntuUSA
+machine: i686
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /root/Projects/django-query-for-chinese-air-pollution
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 3840
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:8077).
+bind(): Address already in use [core/socket.c line 759]
+[pid: 5412|app: 0|req: 4/12] 183.15.63.11 () {40 vars in 715 bytes} [Mon Sep  8 02:59:02 2014] GET / => generated 4515 bytes in 5 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 5405|app: 0|req: 2/13] 183.15.63.11 () {38 vars in 709 bytes} [Mon Sep  8 02:59:11 2014] GET /pm2_5_visual => generated 8718 bytes in 5 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 5413|app: 0|req: 3/14] 183.15.63.11 () {38 vars in 719 bytes} [Mon Sep  8 02:59:20 2014] GET /top_30_city => generated 14819 bytes in 39 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 5411|app: 0|req: 6/15] 183.15.63.11 () {40 vars in 740 bytes} [Mon Sep  8 03:05:46 2014] GET /pm2_5_visual => generated 8718 bytes in 5 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 5412|app: 0|req: 5/16] 183.15.63.11 () {40 vars in 740 bytes} [Mon Sep  8 03:06:32 2014] GET /pm2_5_visual => generated 8718 bytes in 5 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 5413|app: 0|req: 4/17] 183.15.63.11 () {40 vars in 740 bytes} [Mon Sep  8 03:14:22 2014] GET /pm2_5_visual => generated 8718 bytes in 9 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 5411|app: 0|req: 7/18] 183.15.63.11 () {40 vars in 740 bytes} [Mon Sep  8 03:20:36 2014] GET /pm2_5_visual => generated 8718 bytes in 5 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 5412|app: 0|req: 6/19] 183.15.63.11 () {40 vars in 740 bytes} [Mon Sep  8 03:23:08 2014] GET /pm2_5_visual => generated 8718 bytes in 5 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 5413|app: 0|req: 5/20] 183.15.63.11 () {36 vars in 644 bytes} [Mon Sep  8 03:23:11 2014] GET / => generated 4515 bytes in 4 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 5411|app: 0|req: 8/21] 183.15.63.11 () {38 vars in 675 bytes} [Mon Sep  8 03:29:27 2014] GET / => generated 4515 bytes in 5 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 5412|app: 0|req: 7/22] 183.15.63.11 () {36 vars in 650 bytes} [Mon Sep  8 03:29:34 2014] GET /dsd => generated 3141 bytes in 5 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 5413|app: 0|req: 6/23] 183.15.63.11 () {38 vars in 681 bytes} [Mon Sep  8 03:31:40 2014] GET /dsd => generated 3141 bytes in 5 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 5411|app: 0|req: 9/24] 183.15.63.11 () {36 vars in 644 bytes} [Mon Sep  8 03:31:42 2014] GET / => generated 4515 bytes in 4 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 5412|app: 0|req: 8/25] 183.15.63.11 () {36 vars in 648 bytes} [Mon Sep  8 03:31:50 2014] GET /sa => generated 3138 bytes in 5 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.7 (32bit) on [Sun Sep  7 23:36:31 2014] ***
+compiled with version: 4.6.3 on 06 September 2014 09:23:05
+os: Linux-3.8.0-29-generic #42~precise1-Ubuntu SMP Wed Aug 14 15:31:16 UTC 2013
+nodename: DigitalOceanUbuntuUSA
+machine: i686
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /root/Projects/django-query-for-chinese-air-pollution
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 3840
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:8077).
+bind(): Address already in use [core/socket.c line 759]
+[pid: 5413|app: 0|req: 7/26] 183.15.63.11 () {36 vars in 644 bytes} [Mon Sep  8 03:36:45 2014] GET / => generated 4515 bytes in 5 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 5411|app: 0|req: 10/27] 183.15.63.11 () {36 vars in 650 bytes} [Mon Sep  8 03:36:50 2014] GET /dsa => generated 3141 bytes in 5 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.7 (32bit) on [Sun Sep  7 23:48:13 2014] ***
+compiled with version: 4.6.3 on 06 September 2014 09:23:05
+os: Linux-3.8.0-29-generic #42~precise1-Ubuntu SMP Wed Aug 14 15:31:16 UTC 2013
+nodename: DigitalOceanUbuntuUSA
+machine: i686
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /root/Projects/django-query-for-chinese-air-pollution
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 3840
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :8077 fd 3
+Python version: 2.7.3 (default, Feb 27 2014, 20:11:37)  [GCC 4.6.3]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x9745460
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 255952 bytes (249 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x9745460 pid: 13226 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 13226, cores: 1)
+spawned uWSGI worker 2 (pid: 13232, cores: 1)
+spawned uWSGI worker 3 (pid: 13233, cores: 1)
+spawned uWSGI worker 4 (pid: 13234, cores: 1)
+[pid: 13226|app: 0|req: 1/1] 106.185.28.187 () {38 vars in 683 bytes} [Mon Sep  8 03:48:24 2014] GET /dsa => generated 26 bytes in 143 msecs (HTTP/1.1 400) 2 headers in 82 bytes (1 switches on core 0)
+[pid: 13232|app: 0|req: 1/2] 106.185.28.187 () {36 vars in 646 bytes} [Mon Sep  8 03:48:29 2014] GET / => generated 26 bytes in 143 msecs (HTTP/1.1 400) 2 headers in 82 bytes (1 switches on core 0)
+[pid: 13233|app: 0|req: 1/3] 106.185.28.187 () {38 vars in 677 bytes} [Mon Sep  8 03:48:35 2014] GET / => generated 26 bytes in 142 msecs (HTTP/1.1 400) 2 headers in 82 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.7 (32bit) on [Sun Sep  7 23:51:36 2014] ***
+compiled with version: 4.6.3 on 06 September 2014 09:23:05
+os: Linux-3.8.0-29-generic #42~precise1-Ubuntu SMP Wed Aug 14 15:31:16 UTC 2013
+nodename: DigitalOceanUbuntuUSA
+machine: i686
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /root/Projects/django-query-for-chinese-air-pollution
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 3840
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :8077 fd 3
+Python version: 2.7.3 (default, Feb 27 2014, 20:11:37)  [GCC 4.6.3]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x9ceb460
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 255952 bytes (249 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x9ceb460 pid: 13341 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 13341, cores: 1)
+spawned uWSGI worker 2 (pid: 13347, cores: 1)
+spawned uWSGI worker 3 (pid: 13348, cores: 1)
+spawned uWSGI worker 4 (pid: 13349, cores: 1)
+[pid: 13341|app: 0|req: 1/1] 106.185.28.187 () {38 vars in 677 bytes} [Mon Sep  8 03:51:46 2014] GET / => generated 26 bytes in 127 msecs (HTTP/1.1 400) 2 headers in 82 bytes (1 switches on core 0)
+[pid: 13347|app: 0|req: 1/2] 106.185.28.187 () {38 vars in 677 bytes} [Mon Sep  8 03:52:13 2014] GET / => generated 26 bytes in 130 msecs (HTTP/1.1 400) 2 headers in 82 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.7 (32bit) on [Sun Sep  7 23:52:23 2014] ***
+compiled with version: 4.6.3 on 06 September 2014 09:23:05
+os: Linux-3.8.0-29-generic #42~precise1-Ubuntu SMP Wed Aug 14 15:31:16 UTC 2013
+nodename: DigitalOceanUbuntuUSA
+machine: i686
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /root/Projects/django-query-for-chinese-air-pollution
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 3840
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :8077 fd 3
+Python version: 2.7.3 (default, Feb 27 2014, 20:11:37)  [GCC 4.6.3]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x9148460
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 255952 bytes (249 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x9148460 pid: 13429 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 13429, cores: 1)
+spawned uWSGI worker 2 (pid: 13435, cores: 1)
+spawned uWSGI worker 3 (pid: 13436, cores: 1)
+spawned uWSGI worker 4 (pid: 13437, cores: 1)
+[pid: 13429|app: 0|req: 1/1] 106.185.28.187 () {38 vars in 677 bytes} [Mon Sep  8 03:52:25 2014] GET / => generated 26 bytes in 144 msecs (HTTP/1.1 400) 2 headers in 82 bytes (1 switches on core 0)
+[pid: 13435|app: 0|req: 1/2] 106.185.28.187 () {36 vars in 646 bytes} [Mon Sep  8 03:53:12 2014] GET / => generated 26 bytes in 130 msecs (HTTP/1.1 400) 2 headers in 82 bytes (1 switches on core 0)
+[pid: 13436|app: 0|req: 1/3] 106.185.28.187 () {36 vars in 646 bytes} [Mon Sep  8 04:08:34 2014] GET / => generated 4515 bytes in 178 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 13435|app: 0|req: 2/4] 183.15.63.11 () {36 vars in 644 bytes} [Mon Sep  8 04:18:04 2014] GET / => generated 26 bytes in 2 msecs (HTTP/1.1 400) 2 headers in 82 bytes (1 switches on core 0)
+[pid: 13429|app: 0|req: 2/5] 183.15.63.11 () {38 vars in 675 bytes} [Mon Sep  8 04:18:33 2014] GET / => generated 26 bytes in 2 msecs (HTTP/1.1 400) 2 headers in 82 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.7 (32bit) on [Mon Sep  8 00:18:45 2014] ***
+compiled with version: 4.6.3 on 06 September 2014 09:23:05
+os: Linux-3.8.0-29-generic #42~precise1-Ubuntu SMP Wed Aug 14 15:31:16 UTC 2013
+nodename: DigitalOceanUbuntuUSA
+machine: i686
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /root/Projects/django-query-for-chinese-air-pollution
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 3840
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:8077).
+bind(): Address already in use [core/socket.c line 759]
+[pid: 13437|app: 0|req: 1/6] 183.15.63.11 () {38 vars in 675 bytes} [Mon Sep  8 04:18:47 2014] GET / => generated 4515 bytes in 136 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 13435|app: 0|req: 3/7] 183.15.63.11 () {38 vars in 675 bytes} [Mon Sep  8 04:18:54 2014] GET / => generated 26 bytes in 2 msecs (HTTP/1.1 400) 2 headers in 82 bytes (1 switches on core 0)
+[pid: 13429|app: 0|req: 3/8] 183.15.63.11 () {36 vars in 644 bytes} [Mon Sep  8 04:32:11 2014] GET / => generated 26 bytes in 2 msecs (HTTP/1.1 400) 2 headers in 82 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.7 (32bit) on [Mon Sep  8 03:31:43 2014] ***
+compiled with version: 4.6.3 on 06 September 2014 09:23:05
+os: Linux-3.8.0-29-generic #42~precise1-Ubuntu SMP Wed Aug 14 15:31:16 UTC 2013
+nodename: DigitalOceanUbuntuUSA
+machine: i686
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /root/Projects/django-query-for-chinese-air-pollution
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 3840
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:8077).
+bind(): Address already in use [core/socket.c line 759]
+[pid: 13436|app: 0|req: 2/9] 106.185.28.187 () {36 vars in 594 bytes} [Mon Sep  8 07:31:58 2014] GET / => generated 4515 bytes in 5 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 13435|app: 0|req: 4/10] 106.185.28.187 () {38 vars in 677 bytes} [Mon Sep  8 07:32:09 2014] GET / => generated 26 bytes in 3 msecs (HTTP/1.1 400) 2 headers in 82 bytes (1 switches on core 0)
+[pid: 13429|app: 0|req: 4/11] 106.185.28.187 () {38 vars in 677 bytes} [Mon Sep  8 07:32:22 2014] GET / => generated 26 bytes in 2 msecs (HTTP/1.1 400) 2 headers in 82 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.7 (32bit) on [Mon Sep  8 03:32:32 2014] ***
+compiled with version: 4.6.3 on 06 September 2014 09:23:05
+os: Linux-3.8.0-29-generic #42~precise1-Ubuntu SMP Wed Aug 14 15:31:16 UTC 2013
+nodename: DigitalOceanUbuntuUSA
+machine: i686
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /root/Projects/django-query-for-chinese-air-pollution
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 3840
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:8077).
+bind(): Address already in use [core/socket.c line 759]
+[pid: 13437|app: 0|req: 2/12] 106.185.28.187 () {38 vars in 677 bytes} [Mon Sep  8 07:32:34 2014] GET / => generated 4515 bytes in 5 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 13436|app: 0|req: 3/13] 106.185.28.187 () {38 vars in 677 bytes} [Mon Sep  8 07:32:46 2014] GET / => generated 4515 bytes in 8 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 13435|app: 0|req: 5/14] 106.185.28.187 () {38 vars in 677 bytes} [Mon Sep  8 07:32:47 2014] GET / => generated 26 bytes in 2 msecs (HTTP/1.1 400) 2 headers in 82 bytes (1 switches on core 0)
+[pid: 13429|app: 0|req: 5/15] 106.185.28.187 () {38 vars in 677 bytes} [Mon Sep  8 07:32:49 2014] GET / => generated 26 bytes in 1 msecs (HTTP/1.1 400) 2 headers in 82 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.7 (32bit) on [Mon Sep  8 03:34:06 2014] ***
+compiled with version: 4.6.3 on 06 September 2014 09:23:05
+os: Linux-3.8.0-29-generic #42~precise1-Ubuntu SMP Wed Aug 14 15:31:16 UTC 2013
+nodename: DigitalOceanUbuntuUSA
+machine: i686
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /root/Projects/django-query-for-chinese-air-pollution
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 3840
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :8077 fd 3
+Python version: 2.7.3 (default, Feb 27 2014, 20:11:37)  [GCC 4.6.3]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x93d2438
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 255952 bytes (249 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x93d2438 pid: 17547 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 17547, cores: 1)
+spawned uWSGI worker 2 (pid: 17553, cores: 1)
+spawned uWSGI worker 3 (pid: 17554, cores: 1)
+spawned uWSGI worker 4 (pid: 17555, cores: 1)
+[pid: 17547|app: 0|req: 1/1] 106.185.28.187 () {38 vars in 677 bytes} [Mon Sep  8 07:34:09 2014] GET / => generated 4515 bytes in 144 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 17553|app: 0|req: 1/2] 106.185.28.187 () {38 vars in 713 bytes} [Mon Sep  8 07:34:14 2014] GET /worst_30_city => generated 15074 bytes in 168 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 17554|app: 0|req: 1/3] 106.185.28.187 () {36 vars in 646 bytes} [Mon Sep  8 07:34:27 2014] GET / => generated 4515 bytes in 138 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 17553|app: 0|req: 2/4] 106.185.28.187 () {38 vars in 677 bytes} [Mon Sep  8 07:34:40 2014] GET / => generated 4515 bytes in 4 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 17555|app: 0|req: 1/5] 106.185.28.187 () {38 vars in 677 bytes} [Mon Sep  8 07:34:41 2014] GET / => generated 4515 bytes in 140 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 17553|app: 0|req: 3/6] 106.185.28.187 () {38 vars in 677 bytes} [Mon Sep  8 07:34:51 2014] GET / => generated 4515 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 17554|app: 0|req: 2/7] 106.185.28.187 () {38 vars in 677 bytes} [Mon Sep  8 07:35:05 2014] GET / => generated 4515 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 17547|app: 0|req: 2/8] 106.185.28.187 () {38 vars in 711 bytes} [Mon Sep  8 07:35:24 2014] GET /pm2_5_visual => generated 8682 bytes in 4 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 17555|app: 0|req: 2/9] 106.185.28.187 () {40 vars in 742 bytes} [Mon Sep  8 07:36:40 2014] GET /pm2_5_visual => generated 8682 bytes in 4 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 17553|app: 0|req: 4/10] 106.185.28.187 () {36 vars in 670 bytes} [Mon Sep  8 07:37:56 2014] GET /pm2_5_visual => generated 8682 bytes in 4 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 17554|app: 0|req: 3/11] 106.185.28.187 () {38 vars in 699 bytes} [Mon Sep  8 07:38:01 2014] GET / => generated 4515 bytes in 4 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 17547|app: 0|req: 3/12] 106.185.28.187 () {40 vars in 730 bytes} [Mon Sep  8 07:39:42 2014] GET / => generated 4515 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.7 (32bit) on [Mon Sep  8 03:51:58 2014] ***
+compiled with version: 4.6.3 on 06 September 2014 09:23:05
+os: Linux-3.8.0-29-generic #42~precise1-Ubuntu SMP Wed Aug 14 15:31:16 UTC 2013
+nodename: DigitalOceanUbuntuUSA
+machine: i686
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /root/Projects/django-query-for-chinese-air-pollution
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 3840
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :8077 fd 3
+Python version: 2.7.3 (default, Feb 27 2014, 20:11:37)  [GCC 4.6.3]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x9f6f438
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 255952 bytes (249 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x9f6f438 pid: 18019 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 18019, cores: 1)
+spawned uWSGI worker 2 (pid: 18025, cores: 1)
+spawned uWSGI worker 3 (pid: 18026, cores: 1)
+spawned uWSGI worker 4 (pid: 18027, cores: 1)
+[pid: 18019|app: 0|req: 1/1] 106.185.28.187 () {36 vars in 646 bytes} [Mon Sep  8 07:52:04 2014] GET / => generated 4515 bytes in 155 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 18025|app: 0|req: 1/2] 106.185.28.187 () {38 vars in 687 bytes} [Mon Sep  8 07:52:05 2014] GET /static/css/bootstrap.min.css => generated 109518 bytes in 156 msecs (HTTP/1.1 200) 4 headers in 142 bytes (5 switches on core 0)
+[pid: 18025|app: 0|req: 2/3] 106.185.28.187 () {38 vars in 668 bytes} [Mon Sep  8 07:52:06 2014] GET /static/js/bootstrap.min.js => generated 31819 bytes in 2 msecs (HTTP/1.1 200) 4 headers in 155 bytes (6 switches on core 0)
+[pid: 18025|app: 0|req: 3/4] 106.185.28.187 () {38 vars in 662 bytes} [Mon Sep  8 07:52:06 2014] GET /static/js/jquery.min.js => generated 95786 bytes in 2 msecs (HTTP/1.1 200) 4 headers in 155 bytes (4 switches on core 0)
+[pid: 18026|app: 0|req: 1/5] 106.185.28.187 () {38 vars in 679 bytes} [Mon Sep  8 07:52:06 2014] GET /static/css/jumbotron.css => generated 127 bytes in 227 msecs (HTTP/1.1 200) 4 headers in 139 bytes (5 switches on core 0)
+[pid: 18025|app: 0|req: 4/6] 106.185.28.187 () {38 vars in 711 bytes} [Mon Sep  8 07:52:12 2014] GET /pm2_5_visual => generated 8682 bytes in 13 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 18026|app: 0|req: 2/7] 106.185.28.187 () {38 vars in 703 bytes} [Mon Sep  8 07:52:12 2014] GET /static/css/d3_pm2_5_visual.css => generated 703 bytes in 2 msecs (HTTP/1.1 200) 4 headers in 139 bytes (47 switches on core 0)
+[pid: 18019|app: 0|req: 2/8] 106.185.28.187 () {38 vars in 672 bytes} [Mon Sep  8 07:52:12 2014] GET /static/js/d3.v3.min.js => generated 146751 bytes in 10 msecs (HTTP/1.1 200) 4 headers in 156 bytes (5 switches on core 0)
+[pid: 18025|app: 0|req: 5/9] 106.185.28.187 () {38 vars in 680 bytes} [Mon Sep  8 07:52:12 2014] GET /static/js/d3.tip.v0.6.3.js => generated 6744 bytes in 15 msecs (HTTP/1.1 200) 4 headers in 154 bytes (280 switches on core 0)
+[pid: 18026|app: 0|req: 3/10] 106.185.28.187 () {38 vars in 704 bytes} [Mon Sep  8 07:52:13 2014] GET /static/data/city_data.tsv => generated 656 bytes in 3 msecs (HTTP/1.1 200) 4 headers in 156 bytes (61 switches on core 0)
+[pid: 18019|app: 0|req: 3/11] 106.185.28.187 () {38 vars in 699 bytes} [Mon Sep  8 07:52:16 2014] GET / => generated 4515 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 18027|app: 0|req: 1/12] 106.185.28.187 () {36 vars in 652 bytes} [Mon Sep  8 07:52:19 2014] GET /dsa => generated 3269 bytes in 145 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 18025|app: 0|req: 6/13] 106.185.28.187 () {38 vars in 683 bytes} [Mon Sep  8 07:53:12 2014] GET /dsa => generated 3269 bytes in 6 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 18026|app: 0|req: 4/14] 106.185.28.187 () {38 vars in 687 bytes} [Mon Sep  8 07:53:15 2014] GET / => generated 4515 bytes in 8 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.7 (32bit) on [Mon Sep  8 03:53:36 2014] ***
+compiled with version: 4.6.3 on 06 September 2014 09:23:05
+os: Linux-3.8.0-29-generic #42~precise1-Ubuntu SMP Wed Aug 14 15:31:16 UTC 2013
+nodename: DigitalOceanUbuntuUSA
+machine: i686
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /root/Projects/django-query-for-chinese-air-pollution
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 3840
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :8077 fd 3
+Python version: 2.7.3 (default, Feb 27 2014, 20:11:37)  [GCC 4.6.3]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x8e39438
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 255952 bytes (249 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x8e39438 pid: 18149 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 18149, cores: 1)
+spawned uWSGI worker 2 (pid: 18155, cores: 1)
+spawned uWSGI worker 3 (pid: 18156, cores: 1)
+spawned uWSGI worker 4 (pid: 18157, cores: 1)
+[pid: 18149|app: 0|req: 1/1] 106.185.28.187 () {38 vars in 687 bytes} [Mon Sep  8 07:53:46 2014] GET / => generated 26 bytes in 160 msecs (HTTP/1.1 400) 2 headers in 82 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.7 (32bit) on [Mon Sep  8 03:53:59 2014] ***
+compiled with version: 4.6.3 on 06 September 2014 09:23:05
+os: Linux-3.8.0-29-generic #42~precise1-Ubuntu SMP Wed Aug 14 15:31:16 UTC 2013
+nodename: DigitalOceanUbuntuUSA
+machine: i686
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /root/Projects/django-query-for-chinese-air-pollution
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 3840
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :8077 fd 3
+Python version: 2.7.3 (default, Feb 27 2014, 20:11:37)  [GCC 4.6.3]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x9c5a438
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 255952 bytes (249 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x9c5a438 pid: 18190 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 18190, cores: 1)
+spawned uWSGI worker 2 (pid: 18197, cores: 1)
+spawned uWSGI worker 3 (pid: 18198, cores: 1)
+spawned uWSGI worker 4 (pid: 18199, cores: 1)
+[pid: 18190|app: 0|req: 1/1] 106.185.28.187 () {40 vars in 718 bytes} [Mon Sep  8 07:54:00 2014] GET / => generated 26 bytes in 129 msecs (HTTP/1.1 400) 2 headers in 82 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.7 (32bit) on [Mon Sep  8 03:54:32 2014] ***
+compiled with version: 4.6.3 on 06 September 2014 09:23:05
+os: Linux-3.8.0-29-generic #42~precise1-Ubuntu SMP Wed Aug 14 15:31:16 UTC 2013
+nodename: DigitalOceanUbuntuUSA
+machine: i686
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /root/Projects/django-query-for-chinese-air-pollution
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 3840
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :8077 fd 3
+Python version: 2.7.3 (default, Feb 27 2014, 20:11:37)  [GCC 4.6.3]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x9e25438
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 255952 bytes (249 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x9e25438 pid: 18265 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 18265, cores: 1)
+spawned uWSGI worker 2 (pid: 18271, cores: 1)
+spawned uWSGI worker 3 (pid: 18272, cores: 1)
+spawned uWSGI worker 4 (pid: 18273, cores: 1)
+[pid: 18265|app: 0|req: 1/1] 106.185.28.187 () {40 vars in 718 bytes} [Mon Sep  8 07:54:33 2014] GET / => generated 26 bytes in 148 msecs (HTTP/1.1 400) 2 headers in 82 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.7 (32bit) on [Mon Sep  8 03:58:32 2014] ***
+compiled with version: 4.6.3 on 06 September 2014 09:23:05
+os: Linux-3.8.0-29-generic #42~precise1-Ubuntu SMP Wed Aug 14 15:31:16 UTC 2013
+nodename: DigitalOceanUbuntuUSA
+machine: i686
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /root/Projects/django-query-for-chinese-air-pollution
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 3840
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :8077 fd 3
+Python version: 2.7.3 (default, Feb 27 2014, 20:11:37)  [GCC 4.6.3]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x952a438
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 255952 bytes (249 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x952a438 pid: 18772 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 18772, cores: 1)
+spawned uWSGI worker 2 (pid: 18778, cores: 1)
+spawned uWSGI worker 3 (pid: 18779, cores: 1)
+spawned uWSGI worker 4 (pid: 18780, cores: 1)
+[pid: 18772|app: 0|req: 1/1] 106.185.28.187 () {36 vars in 646 bytes} [Mon Sep  8 07:58:37 2014] GET / => generated 4515 bytes in 153 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 18778|app: 0|req: 1/2] 106.185.28.187 () {38 vars in 725 bytes} [Mon Sep  8 07:58:40 2014] GET /china_map_histogram => generated 3924 bytes in 134 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 18779|app: 0|req: 1/3] 106.185.28.187 () {38 vars in 698 bytes} [Mon Sep  8 07:58:40 2014] GET /static/css/footprint.css => generated 522 bytes in 139 msecs (HTTP/1.1 200) 4 headers in 139 bytes (36 switches on core 0)
+[pid: 18778|app: 0|req: 2/4] 106.185.28.187 () {38 vars in 707 bytes} [Mon Sep  8 07:58:41 2014] GET /static/js/map_histogram/d3.v3.min.js => generated 146751 bytes in 5 msecs (HTTP/1.1 200) 4 headers in 156 bytes (5 switches on core 0)
+[pid: 18778|app: 0|req: 3/5] 106.185.28.187 () {38 vars in 719 bytes} [Mon Sep  8 07:58:41 2014] GET /static/js/map_histogram/footprint-china.js => generated 1816 bytes in 3 msecs (HTTP/1.1 200) 4 headers in 154 bytes (56 switches on core 0)
+[pid: 18778|app: 0|req: 4/6] 106.185.28.187 () {38 vars in 709 bytes} [Mon Sep  8 07:58:41 2014] GET /static/js/map_histogram/jquery.min.js => generated 95786 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 155 bytes (4 switches on core 0)
+[pid: 18780|app: 0|req: 1/7] 106.185.28.187 () {38 vars in 713 bytes} [Mon Sep  8 07:58:41 2014] GET /static/js/map_histogram/queue.v1.min.js => generated 692 bytes in 138 msecs (HTTP/1.1 200) 4 headers in 153 bytes (1 switches on core 0)
+[pid: 18778|app: 0|req: 5/8] 106.185.28.187 () {38 vars in 718 bytes} [Mon Sep  8 07:58:42 2014] GET /static/data/map/china_cities.json => generated 1683048 bytes in 6 msecs (HTTP/1.1 200) 4 headers in 151 bytes (1 switches on core 0)
+[pid: 18779|app: 0|req: 2/9] 106.185.28.187 () {38 vars in 724 bytes} [Mon Sep  8 07:58:42 2014] GET /static/data/map/china_provinces.json => generated 53987 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 149 bytes (1 switches on core 0)
+[pid: 18772|app: 0|req: 2/10] 106.185.28.187 () {38 vars in 708 bytes} [Mon Sep  8 07:58:42 2014] GET /static/data/map/china_cities.csv => generated 8848 bytes in 20 msecs (HTTP/1.1 200) 4 headers in 140 bytes (456 switches on core 0)
+[pid: 18778|app: 0|req: 6/11] 106.185.28.187 () {38 vars in 706 bytes} [Mon Sep  8 07:58:47 2014] GET / => generated 4515 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 18779|app: 0|req: 3/12] 106.185.28.187 () {38 vars in 703 bytes} [Mon Sep  8 07:58:53 2014] GET /citydata => generated 77724 bytes in 135 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 18778|app: 0|req: 7/13] 106.185.28.187 () {46 vars in 896 bytes} [Mon Sep  8 07:59:01 2014] POST /citydata => generated 3684 bytes in 31 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 18779|app: 0|req: 4/14] 106.185.28.187 () {38 vars in 695 bytes} [Mon Sep  8 07:59:03 2014] GET / => generated 4515 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 18780|app: 0|req: 2/15] 106.185.28.187 () {38 vars in 713 bytes} [Mon Sep  8 07:59:32 2014] GET /caizhibin.com => generated 3299 bytes in 13 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 18778|app: 0|req: 8/16] 106.185.28.187 () {38 vars in 687 bytes} [Mon Sep  8 07:59:43 2014] GET / => generated 4515 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 18779|app: 0|req: 5/17] 106.185.28.187 () {38 vars in 697 bytes} [Mon Sep  8 07:59:56 2014] GET /index => generated 220913 bytes in 396 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 18778|app: 0|req: 9/18] 106.185.28.187 () {46 vars in 887 bytes} [Mon Sep  8 08:00:01 2014] POST /index => generated 5596 bytes in 22 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 18779|app: 0|req: 6/19] 106.185.28.187 () {38 vars in 702 bytes} [Mon Sep  8 08:00:08 2014] GET /index => generated 220913 bytes in 383 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 18778|app: 0|req: 10/20] 106.185.28.187 () {46 vars in 887 bytes} [Mon Sep  8 08:00:12 2014] POST /index => generated 5596 bytes in 14 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 18779|app: 0|req: 7/21] 106.185.28.187 () {38 vars in 692 bytes} [Mon Sep  8 08:00:17 2014] GET / => generated 4515 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.7 (32bit) on [Mon Sep  8 04:02:03 2014] ***
+compiled with version: 4.6.3 on 06 September 2014 09:23:05
+os: Linux-3.8.0-29-generic #42~precise1-Ubuntu SMP Wed Aug 14 15:31:16 UTC 2013
+nodename: DigitalOceanUbuntuUSA
+machine: i686
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /root/Projects/django-query-for-chinese-air-pollution
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 3840
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :8077 fd 3
+Python version: 2.7.3 (default, Feb 27 2014, 20:11:37)  [GCC 4.6.3]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x8e94438
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 255952 bytes (249 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x8e94438 pid: 18883 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 18883, cores: 1)
+spawned uWSGI worker 2 (pid: 18889, cores: 1)
+spawned uWSGI worker 3 (pid: 18890, cores: 1)
+spawned uWSGI worker 4 (pid: 18891, cores: 1)
+[pid: 18883|app: 0|req: 1/1] 106.185.28.187 () {38 vars in 687 bytes} [Mon Sep  8 08:02:09 2014] GET / => generated 4515 bytes in 141 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 18889|app: 0|req: 1/2] 106.185.28.187 () {38 vars in 725 bytes} [Mon Sep  8 08:02:13 2014] GET /china_map_histogram => generated 3924 bytes in 144 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 18890|app: 0|req: 1/3] 106.185.28.187 () {36 vars in 684 bytes} [Mon Sep  8 08:02:16 2014] GET /china_mapdasdasdsad => generated 93 bytes in 141 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 18889|app: 0|req: 2/4] 106.185.28.187 () {36 vars in 646 bytes} [Mon Sep  8 08:02:23 2014] GET / => generated 4515 bytes in 4 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 18891|app: 0|req: 1/5] 106.185.28.187 () {38 vars in 677 bytes} [Mon Sep  8 08:02:36 2014] GET / => generated 4515 bytes in 130 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 18889|app: 0|req: 3/6] 106.185.28.187 () {42 vars in 773 bytes} [Mon Sep  8 08:02:37 2014] GET /static/css/bootstrap.min.css => generated 102 bytes in 3 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 18890|app: 0|req: 2/7] 106.185.28.187 () {42 vars in 765 bytes} [Mon Sep  8 08:02:37 2014] GET /static/css/jumbotron.css => generated 98 bytes in 3 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 18883|app: 0|req: 2/8] 106.185.28.187 () {42 vars in 754 bytes} [Mon Sep  8 08:02:37 2014] GET /static/js/bootstrap.min.js => generated 100 bytes in 3 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 18891|app: 0|req: 2/9] 106.185.28.187 () {42 vars in 748 bytes} [Mon Sep  8 08:02:37 2014] GET /static/js/jquery.min.js => generated 97 bytes in 3 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 18889|app: 0|req: 4/10] 106.185.28.187 () {38 vars in 687 bytes} [Mon Sep  8 08:02:41 2014] GET / => generated 4515 bytes in 4 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 18883|app: 0|req: 3/11] 106.185.28.187 () {38 vars in 679 bytes} [Mon Sep  8 08:02:42 2014] GET /static/css/jumbotron.css => generated 98 bytes in 6 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 18890|app: 0|req: 3/12] 106.185.28.187 () {38 vars in 662 bytes} [Mon Sep  8 08:02:42 2014] GET /static/js/jquery.min.js => generated 97 bytes in 10 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 18891|app: 0|req: 3/13] 106.185.28.187 () {38 vars in 687 bytes} [Mon Sep  8 08:02:42 2014] GET /static/css/bootstrap.min.css => generated 102 bytes in 6 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 18883|app: 0|req: 4/14] 106.185.28.187 () {38 vars in 668 bytes} [Mon Sep  8 08:02:42 2014] GET /static/js/bootstrap.min.js => generated 100 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 18889|app: 0|req: 5/15] 106.185.28.187 () {40 vars in 718 bytes} [Mon Sep  8 08:02:44 2014] GET / => generated 4515 bytes in 4 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 18890|app: 0|req: 4/16] 106.185.28.187 () {40 vars in 693 bytes} [Mon Sep  8 08:02:45 2014] GET /static/js/jquery.min.js => generated 97 bytes in 11 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 18891|app: 0|req: 4/17] 106.185.28.187 () {40 vars in 710 bytes} [Mon Sep  8 08:02:45 2014] GET /static/css/jumbotron.css => generated 98 bytes in 11 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 18883|app: 0|req: 5/18] 106.185.28.187 () {40 vars in 718 bytes} [Mon Sep  8 08:02:45 2014] GET /static/css/bootstrap.min.css => generated 102 bytes in 7 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 18889|app: 0|req: 6/19] 106.185.28.187 () {40 vars in 699 bytes} [Mon Sep  8 08:02:45 2014] GET /static/js/bootstrap.min.js => generated 100 bytes in 3 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 18890|app: 0|req: 5/20] 106.185.28.187 () {40 vars in 718 bytes} [Mon Sep  8 08:02:45 2014] GET / => generated 4515 bytes in 12 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 18883|app: 0|req: 6/21] 106.185.28.187 () {40 vars in 718 bytes} [Mon Sep  8 08:02:46 2014] GET /static/css/bootstrap.min.css => generated 102 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 18891|app: 0|req: 5/23] 106.185.28.187 () {40 vars in 710 bytes} [Mon Sep  8 08:02:46 2014] GET /static/css/jumbotron.css => generated 98 bytes in 7 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 18889|app: 0|req: 7/23] 106.185.28.187 () {40 vars in 693 bytes} [Mon Sep  8 08:02:46 2014] GET /static/js/jquery.min.js => generated 97 bytes in 10 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 18883|app: 0|req: 7/24] 106.185.28.187 () {40 vars in 699 bytes} [Mon Sep  8 08:02:46 2014] GET /static/js/bootstrap.min.js => generated 100 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 18891|app: 0|req: 6/25] 106.185.28.187 () {40 vars in 718 bytes} [Mon Sep  8 08:02:46 2014] GET / => generated 4515 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 18890|app: 0|req: 6/26] 106.185.28.187 () {40 vars in 718 bytes} [Mon Sep  8 08:02:46 2014] GET /static/css/bootstrap.min.css => generated 102 bytes in 6 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 18889|app: 0|req: 8/27] 106.185.28.187 () {40 vars in 710 bytes} [Mon Sep  8 08:02:46 2014] GET /static/css/jumbotron.css => generated 98 bytes in 8 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 18883|app: 0|req: 8/28] 106.185.28.187 () {40 vars in 693 bytes} [Mon Sep  8 08:02:46 2014] GET /static/js/jquery.min.js => generated 97 bytes in 6 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 18891|app: 0|req: 7/29] 106.185.28.187 () {40 vars in 699 bytes} [Mon Sep  8 08:02:46 2014] GET /static/js/bootstrap.min.js => generated 100 bytes in 3 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 18890|app: 0|req: 7/30] 106.185.28.187 () {40 vars in 718 bytes} [Mon Sep  8 08:02:47 2014] GET / => generated 4515 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 18889|app: 0|req: 9/31] 106.185.28.187 () {40 vars in 693 bytes} [Mon Sep  8 08:02:47 2014] GET /static/js/jquery.min.js => generated 97 bytes in 11 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 18883|app: 0|req: 9/32] 106.185.28.187 () {40 vars in 710 bytes} [Mon Sep  8 08:02:47 2014] GET /static/css/jumbotron.css => generated 98 bytes in 10 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 18891|app: 0|req: 8/33] 106.185.28.187 () {40 vars in 718 bytes} [Mon Sep  8 08:02:47 2014] GET /static/css/bootstrap.min.css => generated 102 bytes in 8 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 18890|app: 0|req: 8/34] 106.185.28.187 () {40 vars in 699 bytes} [Mon Sep  8 08:02:47 2014] GET /static/js/bootstrap.min.js => generated 100 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 18889|app: 0|req: 10/35] 106.185.28.187 () {40 vars in 718 bytes} [Mon Sep  8 08:02:48 2014] GET / => generated 4515 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 18883|app: 0|req: 10/36] 106.185.28.187 () {40 vars in 693 bytes} [Mon Sep  8 08:02:48 2014] GET /static/js/jquery.min.js => generated 97 bytes in 8 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 18891|app: 0|req: 9/37] 106.185.28.187 () {40 vars in 710 bytes} [Mon Sep  8 08:02:48 2014] GET /static/css/jumbotron.css => generated 98 bytes in 7 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 18890|app: 0|req: 9/38] 106.185.28.187 () {40 vars in 718 bytes} [Mon Sep  8 08:02:48 2014] GET /static/css/bootstrap.min.css => generated 102 bytes in 7 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 18889|app: 0|req: 11/39] 106.185.28.187 () {40 vars in 699 bytes} [Mon Sep  8 08:02:48 2014] GET /static/js/bootstrap.min.js => generated 100 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 18883|app: 0|req: 11/40] 106.185.28.187 () {40 vars in 718 bytes} [Mon Sep  8 08:02:48 2014] GET / => generated 4515 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 18891|app: 0|req: 10/41] 106.185.28.187 () {40 vars in 693 bytes} [Mon Sep  8 08:02:49 2014] GET /static/js/jquery.min.js => generated 97 bytes in 10 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 18890|app: 0|req: 10/42] 106.185.28.187 () {40 vars in 710 bytes} [Mon Sep  8 08:02:49 2014] GET /static/css/jumbotron.css => generated 98 bytes in 9 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 18889|app: 0|req: 12/43] 106.185.28.187 () {40 vars in 718 bytes} [Mon Sep  8 08:02:49 2014] GET /static/css/bootstrap.min.css => generated 102 bytes in 7 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 18883|app: 0|req: 12/44] 106.185.28.187 () {40 vars in 699 bytes} [Mon Sep  8 08:02:49 2014] GET /static/js/bootstrap.min.js => generated 100 bytes in 3 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 18891|app: 0|req: 11/45] 106.185.28.187 () {40 vars in 718 bytes} [Mon Sep  8 08:02:49 2014] GET / => generated 4515 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 18890|app: 0|req: 11/46] 106.185.28.187 () {40 vars in 693 bytes} [Mon Sep  8 08:02:50 2014] GET /static/js/jquery.min.js => generated 97 bytes in 8 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 18889|app: 0|req: 13/47] 106.185.28.187 () {40 vars in 710 bytes} [Mon Sep  8 08:02:50 2014] GET /static/css/jumbotron.css => generated 98 bytes in 8 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 18883|app: 0|req: 13/48] 106.185.28.187 () {40 vars in 718 bytes} [Mon Sep  8 08:02:50 2014] GET /static/css/bootstrap.min.css => generated 102 bytes in 7 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 18891|app: 0|req: 12/49] 106.185.28.187 () {40 vars in 699 bytes} [Mon Sep  8 08:02:50 2014] GET /static/js/bootstrap.min.js => generated 100 bytes in 3 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 18890|app: 0|req: 12/50] 106.185.28.187 () {40 vars in 718 bytes} [Mon Sep  8 08:02:50 2014] GET / => generated 4515 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 18889|app: 0|req: 14/51] 106.185.28.187 () {40 vars in 693 bytes} [Mon Sep  8 08:02:51 2014] GET /static/js/jquery.min.js => generated 97 bytes in 3 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 18883|app: 0|req: 14/52] 106.185.28.187 () {40 vars in 699 bytes} [Mon Sep  8 08:02:51 2014] GET /static/js/bootstrap.min.js => generated 100 bytes in 7 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 18891|app: 0|req: 13/53] 106.185.28.187 () {40 vars in 710 bytes} [Mon Sep  8 08:02:51 2014] GET /static/css/jumbotron.css => generated 98 bytes in 6 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 18890|app: 0|req: 13/54] 106.185.28.187 () {40 vars in 718 bytes} [Mon Sep  8 08:02:51 2014] GET /static/css/bootstrap.min.css => generated 102 bytes in 5 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 18889|app: 0|req: 15/55] 106.185.28.187 () {40 vars in 718 bytes} [Mon Sep  8 08:02:51 2014] GET / => generated 4515 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 18883|app: 0|req: 15/56] 106.185.28.187 () {40 vars in 693 bytes} [Mon Sep  8 08:02:51 2014] GET /static/js/jquery.min.js => generated 97 bytes in 8 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 18891|app: 0|req: 14/57] 106.185.28.187 () {40 vars in 710 bytes} [Mon Sep  8 08:02:51 2014] GET /static/css/jumbotron.css => generated 98 bytes in 10 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 18890|app: 0|req: 14/58] 106.185.28.187 () {40 vars in 718 bytes} [Mon Sep  8 08:02:51 2014] GET /static/css/bootstrap.min.css => generated 102 bytes in 8 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 18889|app: 0|req: 16/59] 106.185.28.187 () {40 vars in 699 bytes} [Mon Sep  8 08:02:51 2014] GET /static/js/bootstrap.min.js => generated 100 bytes in 6 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 18883|app: 0|req: 16/60] 106.185.28.187 () {40 vars in 718 bytes} [Mon Sep  8 08:02:52 2014] GET / => generated 4515 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 18891|app: 0|req: 15/61] 106.185.28.187 () {40 vars in 693 bytes} [Mon Sep  8 08:02:52 2014] GET /static/js/jquery.min.js => generated 97 bytes in 17 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 18890|app: 0|req: 15/62] 106.185.28.187 () {40 vars in 710 bytes} [Mon Sep  8 08:02:52 2014] GET /static/css/jumbotron.css => generated 98 bytes in 16 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 18889|app: 0|req: 17/63] 106.185.28.187 () {40 vars in 718 bytes} [Mon Sep  8 08:02:52 2014] GET /static/css/bootstrap.min.css => generated 102 bytes in 14 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 18883|app: 0|req: 17/64] 106.185.28.187 () {40 vars in 699 bytes} [Mon Sep  8 08:02:52 2014] GET /static/js/bootstrap.min.js => generated 100 bytes in 8 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 18891|app: 0|req: 16/65] 106.185.28.187 () {40 vars in 718 bytes} [Mon Sep  8 08:02:53 2014] GET / => generated 4515 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 18890|app: 0|req: 16/66] 106.185.28.187 () {40 vars in 718 bytes} [Mon Sep  8 08:02:53 2014] GET /static/css/bootstrap.min.css => generated 102 bytes in 3 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 18883|app: 0|req: 18/67] 106.185.28.187 () {40 vars in 699 bytes} [Mon Sep  8 08:02:53 2014] GET /static/js/bootstrap.min.js => generated 100 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 18889|app: 0|req: 18/68] 106.185.28.187 () {40 vars in 693 bytes} [Mon Sep  8 08:02:53 2014] GET /static/js/jquery.min.js => generated 97 bytes in 7 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 18891|app: 0|req: 17/69] 106.185.28.187 () {40 vars in 710 bytes} [Mon Sep  8 08:02:53 2014] GET /static/css/jumbotron.css => generated 98 bytes in 3 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 18890|app: 0|req: 17/70] 106.185.28.187 () {40 vars in 718 bytes} [Mon Sep  8 08:02:55 2014] GET / => generated 4515 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 18883|app: 0|req: 19/71] 106.185.28.187 () {40 vars in 693 bytes} [Mon Sep  8 08:02:55 2014] GET /static/js/jquery.min.js => generated 97 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 18889|app: 0|req: 19/72] 106.185.28.187 () {40 vars in 699 bytes} [Mon Sep  8 08:02:55 2014] GET /static/js/bootstrap.min.js => generated 100 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 18891|app: 0|req: 18/73] 106.185.28.187 () {40 vars in 718 bytes} [Mon Sep  8 08:02:55 2014] GET /static/css/bootstrap.min.css => generated 102 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 18890|app: 0|req: 18/74] 106.185.28.187 () {40 vars in 710 bytes} [Mon Sep  8 08:02:55 2014] GET /static/css/jumbotron.css => generated 98 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 18883|app: 0|req: 20/75] 106.185.28.187 () {40 vars in 718 bytes} [Mon Sep  8 08:03:39 2014] GET / => generated 4515 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 18891|app: 0|req: 19/76] 106.185.28.187 () {40 vars in 710 bytes} [Mon Sep  8 08:03:39 2014] GET /static/css/jumbotron.css => generated 98 bytes in 5 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 18889|app: 0|req: 20/77] 106.185.28.187 () {40 vars in 718 bytes} [Mon Sep  8 08:03:39 2014] GET /static/css/bootstrap.min.css => generated 102 bytes in 10 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 18890|app: 0|req: 19/78] 106.185.28.187 () {40 vars in 699 bytes} [Mon Sep  8 08:03:39 2014] GET /static/js/bootstrap.min.js => generated 100 bytes in 7 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 18883|app: 0|req: 21/79] 106.185.28.187 () {40 vars in 693 bytes} [Mon Sep  8 08:03:39 2014] GET /static/js/jquery.min.js => generated 97 bytes in 5 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.7 (32bit) on [Mon Sep  8 04:03:53 2014] ***
+compiled with version: 4.6.3 on 06 September 2014 09:23:05
+os: Linux-3.8.0-29-generic #42~precise1-Ubuntu SMP Wed Aug 14 15:31:16 UTC 2013
+nodename: DigitalOceanUbuntuUSA
+machine: i686
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /root/Projects/django-query-for-chinese-air-pollution
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 3840
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:8077).
+bind(): Address already in use [core/socket.c line 759]
+[pid: 18891|app: 0|req: 20/80] 106.185.28.187 () {40 vars in 718 bytes} [Mon Sep  8 08:03:54 2014] GET / => generated 4515 bytes in 5 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 18890|app: 0|req: 20/82] 106.185.28.187 () {40 vars in 693 bytes} [Mon Sep  8 08:03:54 2014] GET /static/js/jquery.min.js => generated 97 bytes in 12 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 18889|app: 0|req: 21/82] 106.185.28.187 () {40 vars in 718 bytes} [Mon Sep  8 08:03:54 2014] GET /static/css/bootstrap.min.css => generated 102 bytes in 13 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 18883|app: 0|req: 22/83] 106.185.28.187 () {40 vars in 710 bytes} [Mon Sep  8 08:03:54 2014] GET /static/css/jumbotron.css => generated 98 bytes in 8 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 18891|app: 0|req: 21/84] 106.185.28.187 () {40 vars in 699 bytes} [Mon Sep  8 08:03:54 2014] GET /static/js/bootstrap.min.js => generated 100 bytes in 3 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 18890|app: 0|req: 21/85] 106.185.28.187 () {40 vars in 718 bytes} [Mon Sep  8 08:03:55 2014] GET / => generated 4515 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 18889|app: 0|req: 22/86] 106.185.28.187 () {40 vars in 693 bytes} [Mon Sep  8 08:03:55 2014] GET /static/js/jquery.min.js => generated 97 bytes in 12 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 18883|app: 0|req: 23/87] 106.185.28.187 () {40 vars in 710 bytes} [Mon Sep  8 08:03:55 2014] GET /static/css/jumbotron.css => generated 98 bytes in 11 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 18891|app: 0|req: 22/88] 106.185.28.187 () {40 vars in 718 bytes} [Mon Sep  8 08:03:55 2014] GET /static/css/bootstrap.min.css => generated 102 bytes in 7 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 18890|app: 0|req: 22/89] 106.185.28.187 () {40 vars in 699 bytes} [Mon Sep  8 08:03:55 2014] GET /static/js/bootstrap.min.js => generated 100 bytes in 3 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 18889|app: 0|req: 23/90] 106.185.28.187 () {40 vars in 718 bytes} [Mon Sep  8 08:04:05 2014] GET / => generated 4515 bytes in 6 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 18891|app: 0|req: 23/91] 106.185.28.187 () {40 vars in 710 bytes} [Mon Sep  8 08:04:05 2014] GET /static/css/jumbotron.css => generated 98 bytes in 3 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 18890|app: 0|req: 23/92] 106.185.28.187 () {40 vars in 718 bytes} [Mon Sep  8 08:04:06 2014] GET /static/css/bootstrap.min.css => generated 102 bytes in 5 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 18883|app: 0|req: 24/94] 106.185.28.187 () {40 vars in 699 bytes} [Mon Sep  8 08:04:06 2014] GET /static/js/bootstrap.min.js => generated 100 bytes in 9 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 18889|app: 0|req: 24/94] 106.185.28.187 () {40 vars in 693 bytes} [Mon Sep  8 08:04:06 2014] GET /static/js/jquery.min.js => generated 97 bytes in 6 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 18891|app: 0|req: 24/95] 106.185.28.187 () {38 vars in 687 bytes} [Mon Sep  8 08:04:08 2014] GET / => generated 4515 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 18890|app: 0|req: 24/96] 106.185.28.187 () {38 vars in 687 bytes} [Mon Sep  8 08:04:08 2014] GET /static/css/bootstrap.min.css => generated 102 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 18883|app: 0|req: 25/97] 106.185.28.187 () {38 vars in 679 bytes} [Mon Sep  8 08:04:08 2014] GET /static/css/jumbotron.css => generated 98 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 18889|app: 0|req: 25/98] 106.185.28.187 () {38 vars in 668 bytes} [Mon Sep  8 08:04:08 2014] GET /static/js/bootstrap.min.js => generated 100 bytes in 5 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 18891|app: 0|req: 25/99] 106.185.28.187 () {38 vars in 662 bytes} [Mon Sep  8 08:04:08 2014] GET /static/js/jquery.min.js => generated 97 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.7 (32bit) on [Mon Sep  8 04:04:18 2014] ***
+compiled with version: 4.6.3 on 06 September 2014 09:23:05
+os: Linux-3.8.0-29-generic #42~precise1-Ubuntu SMP Wed Aug 14 15:31:16 UTC 2013
+nodename: DigitalOceanUbuntuUSA
+machine: i686
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /root/Projects/django-query-for-chinese-air-pollution
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 3840
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :8077 fd 3
+Python version: 2.7.3 (default, Feb 27 2014, 20:11:37)  [GCC 4.6.3]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x9471428
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 255952 bytes (249 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x9471428 pid: 19177 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 19177, cores: 1)
+spawned uWSGI worker 2 (pid: 19183, cores: 1)
+spawned uWSGI worker 3 (pid: 19184, cores: 1)
+spawned uWSGI worker 4 (pid: 19185, cores: 1)
+[pid: 19177|app: 0|req: 1/1] 106.185.28.187 () {40 vars in 718 bytes} [Mon Sep  8 08:04:20 2014] GET / => generated 4515 bytes in 139 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 19177|app: 0|req: 2/2] 106.185.28.187 () {40 vars in 699 bytes} [Mon Sep  8 08:04:20 2014] GET /static/js/bootstrap.min.js => generated 100 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 19183|app: 0|req: 1/3] 106.185.28.187 () {40 vars in 718 bytes} [Mon Sep  8 08:04:20 2014] GET /static/css/bootstrap.min.css => generated 102 bytes in 398 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 19185|app: 0|req: 1/4] 106.185.28.187 () {40 vars in 693 bytes} [Mon Sep  8 08:04:20 2014] GET /static/js/jquery.min.js => generated 97 bytes in 388 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 19184|app: 0|req: 1/5] 106.185.28.187 () {40 vars in 710 bytes} [Mon Sep  8 08:04:20 2014] GET /static/css/jumbotron.css => generated 98 bytes in 396 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 19183|app: 0|req: 2/6] 106.185.28.187 () {38 vars in 687 bytes} [Mon Sep  8 08:04:23 2014] GET / => generated 4515 bytes in 7 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 19185|app: 0|req: 2/7] 106.185.28.187 () {38 vars in 668 bytes} [Mon Sep  8 08:04:24 2014] GET /static/js/bootstrap.min.js => generated 100 bytes in 18 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 19184|app: 0|req: 2/8] 106.185.28.187 () {38 vars in 687 bytes} [Mon Sep  8 08:04:24 2014] GET /static/css/bootstrap.min.css => generated 102 bytes in 21 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 19177|app: 0|req: 3/9] 106.185.28.187 () {38 vars in 679 bytes} [Mon Sep  8 08:04:24 2014] GET /static/css/jumbotron.css => generated 98 bytes in 17 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 19183|app: 0|req: 3/10] 106.185.28.187 () {38 vars in 662 bytes} [Mon Sep  8 08:04:24 2014] GET /static/js/jquery.min.js => generated 97 bytes in 6 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 19185|app: 0|req: 3/11] 106.185.28.187 () {36 vars in 652 bytes} [Mon Sep  8 08:04:26 2014] GET /dsa => generated 77 bytes in 3 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 19184|app: 0|req: 3/12] 106.185.28.187 () {36 vars in 594 bytes} [Mon Sep  8 08:04:35 2014] GET / => generated 4515 bytes in 10 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 19183|app: 0|req: 4/13] 106.185.28.187 () {38 vars in 621 bytes} [Mon Sep  8 08:04:35 2014] GET /static/js/jquery.min.js => generated 97 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 19185|app: 0|req: 4/14] 106.185.28.187 () {38 vars in 638 bytes} [Mon Sep  8 08:04:35 2014] GET /static/css/jumbotron.css => generated 98 bytes in 3 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 19177|app: 0|req: 4/15] 106.185.28.187 () {38 vars in 627 bytes} [Mon Sep  8 08:04:35 2014] GET /static/js/bootstrap.min.js => generated 100 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 19184|app: 0|req: 4/16] 106.185.28.187 () {38 vars in 646 bytes} [Mon Sep  8 08:04:35 2014] GET /static/css/bootstrap.min.css => generated 102 bytes in 3 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 19183|app: 0|req: 5/17] 106.185.28.187 () {38 vars in 635 bytes} [Mon Sep  8 08:04:40 2014] GET / => generated 4515 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 19185|app: 0|req: 5/18] 106.185.28.187 () {38 vars in 646 bytes} [Mon Sep  8 08:04:40 2014] GET /static/css/bootstrap.min.css => generated 102 bytes in 6 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 19177|app: 0|req: 5/19] 106.185.28.187 () {38 vars in 621 bytes} [Mon Sep  8 08:04:40 2014] GET /static/js/jquery.min.js => generated 97 bytes in 3 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 19184|app: 0|req: 5/20] 106.185.28.187 () {38 vars in 627 bytes} [Mon Sep  8 08:04:40 2014] GET /static/js/bootstrap.min.js => generated 100 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 19183|app: 0|req: 6/21] 106.185.28.187 () {38 vars in 638 bytes} [Mon Sep  8 08:04:40 2014] GET /static/css/jumbotron.css => generated 98 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 19185|app: 0|req: 6/22] 106.185.28.187 () {38 vars in 634 bytes} [Mon Sep  8 08:05:54 2014] GET / => generated 4515 bytes in 6 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 19183|app: 0|req: 7/23] 106.185.28.187 () {38 vars in 638 bytes} [Mon Sep  8 08:05:55 2014] GET /static/css/jumbotron.css => generated 98 bytes in 3 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 19177|app: 0|req: 6/24] 106.185.28.187 () {38 vars in 646 bytes} [Mon Sep  8 08:05:55 2014] GET /static/css/bootstrap.min.css => generated 102 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 19184|app: 0|req: 6/25] 106.185.28.187 () {38 vars in 621 bytes} [Mon Sep  8 08:05:55 2014] GET /static/js/jquery.min.js => generated 97 bytes in 6 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 19185|app: 0|req: 7/26] 106.185.28.187 () {38 vars in 627 bytes} [Mon Sep  8 08:05:55 2014] GET /static/js/bootstrap.min.js => generated 100 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 19183|app: 0|req: 8/27] 106.185.28.187 () {40 vars in 665 bytes} [Mon Sep  8 08:06:25 2014] GET / => generated 4515 bytes in 6 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 19184|app: 0|req: 7/28] 106.185.28.187 () {38 vars in 646 bytes} [Mon Sep  8 08:06:26 2014] GET /static/css/bootstrap.min.css => generated 102 bytes in 3 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 19185|app: 0|req: 8/29] 106.185.28.187 () {38 vars in 621 bytes} [Mon Sep  8 08:06:26 2014] GET /static/js/jquery.min.js => generated 97 bytes in 11 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 19177|app: 0|req: 7/30] 106.185.28.187 () {38 vars in 638 bytes} [Mon Sep  8 08:06:26 2014] GET /static/css/jumbotron.css => generated 98 bytes in 9 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 19183|app: 0|req: 9/31] 106.185.28.187 () {38 vars in 627 bytes} [Mon Sep  8 08:06:26 2014] GET /static/js/bootstrap.min.js => generated 100 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 19184|app: 0|req: 8/32] 106.185.28.187 () {36 vars in 594 bytes} [Mon Sep  8 08:08:13 2014] GET / => generated 4515 bytes in 5 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 19185|app: 0|req: 9/33] 106.185.28.187 () {38 vars in 646 bytes} [Mon Sep  8 08:08:13 2014] GET /static/css/bootstrap.min.css => generated 102 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 19183|app: 0|req: 10/34] 106.185.28.187 () {38 vars in 627 bytes} [Mon Sep  8 08:08:14 2014] GET /static/js/bootstrap.min.js => generated 100 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 19177|app: 0|req: 8/35] 106.185.28.187 () {38 vars in 638 bytes} [Mon Sep  8 08:08:14 2014] GET /static/css/jumbotron.css => generated 98 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 19184|app: 0|req: 9/36] 106.185.28.187 () {38 vars in 621 bytes} [Mon Sep  8 08:08:14 2014] GET /static/js/jquery.min.js => generated 97 bytes in 7 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.7 (32bit) on [Mon Sep  8 09:25:08 2014] ***
+compiled with version: 4.6.3 on 06 September 2014 09:23:05
+os: Linux-3.8.0-29-generic #42~precise1-Ubuntu SMP Wed Aug 14 15:31:16 UTC 2013
+nodename: DigitalOceanUbuntuUSA
+machine: i686
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /root/Projects/django-query-for-chinese-air-pollution
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 3840
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :8077 fd 3
+Python version: 2.7.3 (default, Feb 27 2014, 20:11:37)  [GCC 4.6.3]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x93f3428
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 255952 bytes (249 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x93f3428 pid: 20972 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 20972, cores: 1)
+spawned uWSGI worker 2 (pid: 20978, cores: 1)
+spawned uWSGI worker 3 (pid: 20979, cores: 1)
+spawned uWSGI worker 4 (pid: 20980, cores: 1)
+[pid: 20972|app: 0|req: 1/1] 106.185.28.187 () {38 vars in 677 bytes} [Mon Sep  8 13:25:13 2014] GET / => generated 26 bytes in 134 msecs (HTTP/1.1 400) 2 headers in 82 bytes (1 switches on core 0)
+[pid: 20978|app: 0|req: 1/2] 106.185.28.187 () {38 vars in 677 bytes} [Mon Sep  8 13:25:15 2014] GET / => generated 26 bytes in 193 msecs (HTTP/1.1 400) 2 headers in 82 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.7 (32bit) on [Mon Sep  8 09:25:31 2014] ***
+compiled with version: 4.6.3 on 06 September 2014 09:23:05
+os: Linux-3.8.0-29-generic #42~precise1-Ubuntu SMP Wed Aug 14 15:31:16 UTC 2013
+nodename: DigitalOceanUbuntuUSA
+machine: i686
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /root/Projects/django-query-for-chinese-air-pollution
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 3840
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :8077 fd 3
+Python version: 2.7.3 (default, Feb 27 2014, 20:11:37)  [GCC 4.6.3]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x9e70428
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 255952 bytes (249 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x9e70428 pid: 21001 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 21001, cores: 1)
+spawned uWSGI worker 2 (pid: 21007, cores: 1)
+spawned uWSGI worker 3 (pid: 21008, cores: 1)
+spawned uWSGI worker 4 (pid: 21009, cores: 1)
+[pid: 21001|app: 0|req: 1/1] 106.185.28.187 () {38 vars in 677 bytes} [Mon Sep  8 13:25:33 2014] GET / => generated 26 bytes in 127 msecs (HTTP/1.1 400) 2 headers in 82 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.7 (32bit) on [Mon Sep  8 09:29:19 2014] ***
+compiled with version: 4.6.3 on 06 September 2014 09:23:05
+os: Linux-3.8.0-29-generic #42~precise1-Ubuntu SMP Wed Aug 14 15:31:16 UTC 2013
+nodename: DigitalOceanUbuntuUSA
+machine: i686
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /root/Projects/django-query-for-chinese-air-pollution
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 3840
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :8077 fd 3
+Python version: 2.7.3 (default, Feb 27 2014, 20:11:37)  [GCC 4.6.3]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x9866428
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 255952 bytes (249 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x9866428 pid: 21117 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 21117, cores: 1)
+spawned uWSGI worker 2 (pid: 21123, cores: 1)
+spawned uWSGI worker 3 (pid: 21124, cores: 1)
+spawned uWSGI worker 4 (pid: 21125, cores: 1)
+[pid: 21117|app: 0|req: 1/1] 106.185.28.187 () {36 vars in 646 bytes} [Mon Sep  8 13:29:24 2014] GET / => generated 4515 bytes in 147 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 21123|app: 0|req: 1/2] 106.185.28.187 () {38 vars in 662 bytes} [Mon Sep  8 13:29:25 2014] GET /static/js/jquery.min.js => generated 95786 bytes in 142 msecs (HTTP/1.1 200) 4 headers in 155 bytes (4 switches on core 0)
+[pid: 21123|app: 0|req: 2/3] 106.185.28.187 () {38 vars in 687 bytes} [Mon Sep  8 13:29:26 2014] GET /static/css/bootstrap.min.css => generated 109518 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 142 bytes (5 switches on core 0)
+[pid: 21124|app: 0|req: 1/4] 106.185.28.187 () {38 vars in 679 bytes} [Mon Sep  8 13:29:26 2014] GET /static/css/jumbotron.css => generated 127 bytes in 143 msecs (HTTP/1.1 200) 4 headers in 139 bytes (5 switches on core 0)
+[pid: 21123|app: 0|req: 3/5] 106.185.28.187 () {38 vars in 668 bytes} [Mon Sep  8 13:29:26 2014] GET /static/js/bootstrap.min.js => generated 31819 bytes in 3 msecs (HTTP/1.1 200) 4 headers in 155 bytes (6 switches on core 0)
+[pid: 21117|app: 0|req: 2/6] 106.185.28.187 () {38 vars in 713 bytes} [Mon Sep  8 13:29:33 2014] GET /worst_30_city => generated 15010 bytes in 31 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 21123|app: 0|req: 4/7] 106.185.28.187 () {38 vars in 716 bytes} [Mon Sep  8 13:29:35 2014] GET /citydata => generated 77724 bytes in 146 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 21124|app: 0|req: 2/8] 106.185.28.187 () {38 vars in 719 bytes} [Mon Sep  8 13:29:38 2014] GET /pm2_5_visual => generated 8682 bytes in 8 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 21123|app: 0|req: 5/9] 106.185.28.187 () {40 vars in 758 bytes} [Mon Sep  8 13:29:38 2014] GET /static/css/d3_pm2_5_visual.css => generated 0 bytes in 1 msecs (HTTP/1.1 304) 2 headers in 77 bytes (0 switches on core 0)
+[pid: 21117|app: 0|req: 3/10] 106.185.28.187 () {40 vars in 759 bytes} [Mon Sep  8 13:29:38 2014] GET /static/data/city_data.tsv => generated 0 bytes in 1 msecs (HTTP/1.1 304) 2 headers in 77 bytes (0 switches on core 0)
+[pid: 21125|app: 0|req: 1/11] 106.185.28.187 () {38 vars in 715 bytes} [Mon Sep  8 13:30:08 2014] GET /citydata => generated 77724 bytes in 284 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 21123|app: 0|req: 6/12] 106.185.28.187 () {38 vars in 695 bytes} [Mon Sep  8 13:30:09 2014] GET / => generated 4515 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 21124|app: 0|req: 3/13] 106.185.28.187 () {38 vars in 687 bytes} [Mon Sep  8 13:30:19 2014] GET / => generated 4515 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 21117|app: 0|req: 4/14] 106.185.28.187 () {36 vars in 646 bytes} [Mon Sep  8 13:34:30 2014] GET / => generated 4515 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 21125|app: 0|req: 2/15] 106.185.28.187 () {38 vars in 711 bytes} [Mon Sep  8 13:34:33 2014] GET /pm2_5_visual => generated 8682 bytes in 4 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 21123|app: 0|req: 7/16] 106.185.28.187 () {40 vars in 742 bytes} [Mon Sep  8 13:34:42 2014] GET /pm2_5_visual => generated 8682 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 21124|app: 0|req: 4/17] 106.185.28.187 () {42 vars in 773 bytes} [Mon Sep  8 13:34:42 2014] GET /static/css/bootstrap.min.css => generated 0 bytes in 1 msecs (HTTP/1.1 304) 2 headers in 77 bytes (0 switches on core 0)
+[pid: 21117|app: 0|req: 5/18] 106.185.28.187 () {42 vars in 754 bytes} [Mon Sep  8 13:34:42 2014] GET /static/js/bootstrap.min.js => generated 0 bytes in 1 msecs (HTTP/1.1 304) 2 headers in 77 bytes (0 switches on core 0)
+[pid: 21117|app: 0|req: 6/19] 106.185.28.187 () {42 vars in 765 bytes} [Mon Sep  8 13:34:43 2014] GET /static/css/jumbotron.css => generated 0 bytes in 1 msecs (HTTP/1.1 304) 2 headers in 77 bytes (0 switches on core 0)
+[pid: 21124|app: 0|req: 5/20] 106.185.28.187 () {42 vars in 789 bytes} [Mon Sep  8 13:34:43 2014] GET /static/css/d3_pm2_5_visual.css => generated 0 bytes in 1 msecs (HTTP/1.1 304) 2 headers in 77 bytes (0 switches on core 0)
+[pid: 21125|app: 0|req: 3/21] 106.185.28.187 () {42 vars in 758 bytes} [Mon Sep  8 13:34:43 2014] GET /static/js/d3.v3.min.js => generated 0 bytes in 1 msecs (HTTP/1.1 304) 2 headers in 77 bytes (0 switches on core 0)
+[pid: 21117|app: 0|req: 7/22] 106.185.28.187 () {42 vars in 766 bytes} [Mon Sep  8 13:34:43 2014] GET /static/js/d3.tip.v0.6.3.js => generated 0 bytes in 1 msecs (HTTP/1.1 304) 2 headers in 77 bytes (0 switches on core 0)
+[pid: 21123|app: 0|req: 8/23] 106.185.28.187 () {42 vars in 748 bytes} [Mon Sep  8 13:34:43 2014] GET /static/js/jquery.min.js => generated 0 bytes in 1 msecs (HTTP/1.1 304) 2 headers in 77 bytes (0 switches on core 0)
+[pid: 21124|app: 0|req: 6/24] 106.185.28.187 () {42 vars in 790 bytes} [Mon Sep  8 13:34:43 2014] GET /static/data/city_data.tsv => generated 0 bytes in 1 msecs (HTTP/1.1 304) 2 headers in 77 bytes (0 switches on core 0)
+[pid: 21117|app: 0|req: 8/25] 106.185.28.187 () {40 vars in 742 bytes} [Mon Sep  8 13:34:46 2014] GET /pm2_5_visual => generated 8682 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 21124|app: 0|req: 7/26] 106.185.28.187 () {42 vars in 765 bytes} [Mon Sep  8 13:34:47 2014] GET /static/css/jumbotron.css => generated 0 bytes in 2 msecs (HTTP/1.1 304) 2 headers in 77 bytes (0 switches on core 0)
+[pid: 21123|app: 0|req: 9/27] 106.185.28.187 () {42 vars in 773 bytes} [Mon Sep  8 13:34:47 2014] GET /static/css/bootstrap.min.css => generated 0 bytes in 2 msecs (HTTP/1.1 304) 2 headers in 77 bytes (0 switches on core 0)
+[pid: 21125|app: 0|req: 4/28] 106.185.28.187 () {42 vars in 789 bytes} [Mon Sep  8 13:34:47 2014] GET /static/css/d3_pm2_5_visual.css => generated 0 bytes in 1 msecs (HTTP/1.1 304) 2 headers in 77 bytes (0 switches on core 0)
+[pid: 21124|app: 0|req: 8/29] 106.185.28.187 () {42 vars in 758 bytes} [Mon Sep  8 13:34:47 2014] GET /static/js/d3.v3.min.js => generated 0 bytes in 1 msecs (HTTP/1.1 304) 2 headers in 77 bytes (0 switches on core 0)
+[pid: 21125|app: 0|req: 5/30] 106.185.28.187 () {42 vars in 766 bytes} [Mon Sep  8 13:34:47 2014] GET /static/js/d3.tip.v0.6.3.js => generated 0 bytes in 2 msecs (HTTP/1.1 304) 2 headers in 77 bytes (0 switches on core 0)
+[pid: 21123|app: 0|req: 10/31] 106.185.28.187 () {42 vars in 748 bytes} [Mon Sep  8 13:34:47 2014] GET /static/js/jquery.min.js => generated 0 bytes in 1 msecs (HTTP/1.1 304) 2 headers in 77 bytes (0 switches on core 0)
+[pid: 21124|app: 0|req: 9/32] 106.185.28.187 () {42 vars in 754 bytes} [Mon Sep  8 13:34:47 2014] GET /static/js/bootstrap.min.js => generated 0 bytes in 1 msecs (HTTP/1.1 304) 2 headers in 77 bytes (0 switches on core 0)
+[pid: 21125|app: 0|req: 6/33] 106.185.28.187 () {42 vars in 790 bytes} [Mon Sep  8 13:34:47 2014] GET /static/data/city_data.tsv => generated 0 bytes in 1 msecs (HTTP/1.1 304) 2 headers in 77 bytes (0 switches on core 0)
+[pid: 21123|app: 0|req: 11/34] 106.185.28.187 () {38 vars in 699 bytes} [Mon Sep  8 13:34:50 2014] GET / => generated 4515 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.7 (32bit) on [Mon Sep  8 13:07:14 2014] ***
+compiled with version: 4.6.3 on 06 September 2014 09:23:05
+os: Linux-3.8.0-29-generic #42~precise1-Ubuntu SMP Wed Aug 14 15:31:16 UTC 2013
+nodename: DigitalOceanUbuntuUSA
+machine: i686
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /root/Projects/django-query-for-chinese-air-pollution
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 3840
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :8077 fd 3
+Python version: 2.7.3 (default, Feb 27 2014, 20:11:37)  [GCC 4.6.3]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x8eef438
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 255952 bytes (249 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x8eef438 pid: 23296 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 23296, cores: 1)
+spawned uWSGI worker 2 (pid: 23302, cores: 1)
+spawned uWSGI worker 3 (pid: 23303, cores: 1)
+spawned uWSGI worker 4 (pid: 23304, cores: 1)
+[pid: 23296|app: 0|req: 1/1] 106.185.28.187 () {36 vars in 646 bytes} [Mon Sep  8 17:07:18 2014] GET / => generated 4515 bytes in 152 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 23302|app: 0|req: 1/2] 106.185.28.187 () {38 vars in 711 bytes} [Mon Sep  8 17:07:25 2014] GET /pm2_5_visual => generated 8682 bytes in 142 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 23303|app: 0|req: 1/3] 106.185.28.187 () {40 vars in 758 bytes} [Mon Sep  8 17:07:26 2014] GET /static/css/d3_pm2_5_visual.css => generated 1681 bytes in 150 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 23302|app: 0|req: 2/4] 106.185.28.187 () {40 vars in 759 bytes} [Mon Sep  8 17:07:27 2014] GET /static/data/city_data.tsv => generated 1666 bytes in 7 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 23303|app: 0|req: 2/5] 106.185.28.187 () {40 vars in 742 bytes} [Mon Sep  8 17:08:31 2014] GET /pm2_5_visual => generated 8682 bytes in 7 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 23302|app: 0|req: 3/6] 106.185.28.187 () {42 vars in 773 bytes} [Mon Sep  8 17:08:31 2014] GET /static/css/bootstrap.min.css => generated 0 bytes in 2 msecs (HTTP/1.1 304) 2 headers in 77 bytes (0 switches on core 0)
+[pid: 23296|app: 0|req: 2/7] 106.185.28.187 () {42 vars in 754 bytes} [Mon Sep  8 17:08:32 2014] GET /static/js/bootstrap.min.js => generated 0 bytes in 2 msecs (HTTP/1.1 304) 2 headers in 77 bytes (0 switches on core 0)
+[pid: 23302|app: 0|req: 4/8] 106.185.28.187 () {42 vars in 765 bytes} [Mon Sep  8 17:08:32 2014] GET /static/css/jumbotron.css => generated 0 bytes in 8 msecs (HTTP/1.1 304) 2 headers in 77 bytes (0 switches on core 0)
+[pid: 23302|app: 0|req: 5/9] 106.185.28.187 () {42 vars in 748 bytes} [Mon Sep  8 17:08:32 2014] GET /static/js/jquery.min.js => generated 0 bytes in 7 msecs (HTTP/1.1 304) 2 headers in 77 bytes (0 switches on core 0)
+[pid: 23303|app: 0|req: 3/10] 106.185.28.187 () {42 vars in 758 bytes} [Mon Sep  8 17:08:32 2014] GET /static/js/d3.v3.min.js => generated 1657 bytes in 18 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 23296|app: 0|req: 3/11] 106.185.28.187 () {42 vars in 766 bytes} [Mon Sep  8 17:08:32 2014] GET /static/js/d3.tip.v0.6.3.js => generated 1669 bytes in 26 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 23304|app: 0|req: 1/12] 106.185.28.187 () {40 vars in 734 bytes} [Mon Sep  8 17:08:32 2014] GET /static/css/d3_pm2_5_visual.css => generated 1681 bytes in 164 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 23302|app: 0|req: 6/13] 106.185.28.187 () {38 vars in 721 bytes} [Mon Sep  8 17:08:45 2014] GET /top_30_city => generated 14806 bytes in 29 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 23303|app: 0|req: 4/14] 106.185.28.187 () {38 vars in 708 bytes} [Mon Sep  8 17:08:48 2014] GET /index => generated 220743 bytes in 353 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 23302|app: 0|req: 7/15] 106.185.28.187 () {46 vars in 887 bytes} [Mon Sep  8 17:09:01 2014] POST /index => generated 5831 bytes in 19 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 23303|app: 0|req: 5/16] 106.185.28.187 () {38 vars in 730 bytes} [Mon Sep  8 17:09:04 2014] GET /china_map_histogram => generated 3924 bytes in 6 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 23296|app: 0|req: 4/17] 106.185.28.187 () {40 vars in 753 bytes} [Mon Sep  8 17:09:04 2014] GET /static/css/footprint.css => generated 1663 bytes in 3 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 23304|app: 0|req: 2/18] 106.185.28.187 () {38 vars in 687 bytes} [Mon Sep  8 17:09:04 2014] GET /static/js/d3.tip.v0.6.3.js => generated 1669 bytes in 7 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 23302|app: 0|req: 8/19] 106.185.28.187 () {38 vars in 706 bytes} [Mon Sep  8 17:10:15 2014] GET / => generated 4515 bytes in 4 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 23303|app: 0|req: 6/20] 106.185.28.187 () {38 vars in 711 bytes} [Mon Sep  8 17:10:19 2014] GET /pm2_5_visual => generated 8682 bytes in 4 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 23304|app: 0|req: 3/21] 106.185.28.187 () {38 vars in 703 bytes} [Mon Sep  8 17:10:20 2014] GET /static/css/d3_pm2_5_visual.css => generated 1681 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 23296|app: 0|req: 5/22] 106.185.28.187 () {38 vars in 680 bytes} [Mon Sep  8 17:10:21 2014] GET /static/js/d3.tip.v0.6.3.js => generated 1669 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 23302|app: 0|req: 9/23] 106.185.28.187 () {38 vars in 672 bytes} [Mon Sep  8 17:10:21 2014] GET /static/js/d3.v3.min.js => generated 1657 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.7 (32bit) on [Mon Sep  8 13:11:45 2014] ***
+compiled with version: 4.6.3 on 06 September 2014 09:23:05
+os: Linux-3.8.0-29-generic #42~precise1-Ubuntu SMP Wed Aug 14 15:31:16 UTC 2013
+nodename: DigitalOceanUbuntuUSA
+machine: i686
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /root/Projects/django-query-for-chinese-air-pollution
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 3840
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :8077 fd 3
+Python version: 2.7.3 (default, Feb 27 2014, 20:11:37)  [GCC 4.6.3]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x9ace460
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 255952 bytes (249 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x9ace460 pid: 23580 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 23580, cores: 1)
+spawned uWSGI worker 2 (pid: 23586, cores: 1)
+spawned uWSGI worker 3 (pid: 23587, cores: 1)
+spawned uWSGI worker 4 (pid: 23588, cores: 1)
+[pid: 23580|app: 0|req: 1/1] 106.185.28.187 () {38 vars in 699 bytes} [Mon Sep  8 17:11:51 2014] GET / => generated 4515 bytes in 149 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 23586|app: 0|req: 1/2] 106.185.28.187 () {38 vars in 711 bytes} [Mon Sep  8 17:11:54 2014] GET /pm2_5_visual => generated 8682 bytes in 150 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 23587|app: 0|req: 1/3] 106.185.28.187 () {38 vars in 699 bytes} [Mon Sep  8 17:23:19 2014] GET / => generated 4515 bytes in 135 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 23586|app: 0|req: 2/4] 106.185.28.187 () {38 vars in 711 bytes} [Mon Sep  8 17:23:24 2014] GET /pm2_5_visual => generated 8682 bytes in 4 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 23588|app: 0|req: 1/5] 106.185.28.187 () {38 vars in 737 bytes} [Mon Sep  8 17:24:55 2014] GET /china_map_histogram => generated 3924 bytes in 148 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 23586|app: 0|req: 3/6] 106.185.28.187 () {38 vars in 706 bytes} [Mon Sep  8 17:26:07 2014] GET / => generated 4515 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 23587|app: 0|req: 2/7] 106.185.28.187 () {38 vars in 711 bytes} [Mon Sep  8 17:31:34 2014] GET /pm2_5_visual => generated 8682 bytes in 4 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 23580|app: 0|req: 2/8] 106.185.28.187 () {38 vars in 715 bytes} [Mon Sep  8 17:31:39 2014] GET /citydata => generated 77630 bytes in 131 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 23586|app: 0|req: 4/9] 106.185.28.187 () {38 vars in 719 bytes} [Mon Sep  8 17:31:42 2014] GET /pm2_5_visual => generated 8682 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 23587|app: 0|req: 3/10] 106.185.28.187 () {38 vars in 737 bytes} [Mon Sep  8 17:31:45 2014] GET /china_map_histogram => generated 3924 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.7 (32bit) on [Mon Sep  8 13:36:08 2014] ***
+compiled with version: 4.6.3 on 06 September 2014 09:23:05
+os: Linux-3.8.0-29-generic #42~precise1-Ubuntu SMP Wed Aug 14 15:31:16 UTC 2013
+nodename: DigitalOceanUbuntuUSA
+machine: i686
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /root/Projects/django-query-for-chinese-air-pollution
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 3840
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :8077 fd 3
+Python version: 2.7.3 (default, Feb 27 2014, 20:11:37)  [GCC 4.6.3]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x924d438
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 255952 bytes (249 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x924d438 pid: 23997 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 23997, cores: 1)
+spawned uWSGI worker 2 (pid: 24003, cores: 1)
+spawned uWSGI worker 3 (pid: 24004, cores: 1)
+spawned uWSGI worker 4 (pid: 24005, cores: 1)
+[pid: 23997|app: 0|req: 1/1] 106.185.28.187 () {40 vars in 730 bytes} [Mon Sep  8 17:36:22 2014] GET / => generated 4515 bytes in 145 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 24003|app: 0|req: 1/2] 106.185.28.187 () {38 vars in 677 bytes} [Mon Sep  8 17:36:29 2014] GET / => generated 4515 bytes in 144 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 24004|app: 0|req: 1/3] 106.185.28.187 () {36 vars in 646 bytes} [Mon Sep  8 17:36:32 2014] GET / => generated 4515 bytes in 134 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 24003|app: 0|req: 2/4] 106.185.28.187 () {36 vars in 654 bytes} [Mon Sep  8 17:36:50 2014] GET /sdad => generated 3272 bytes in 6 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 24004|app: 0|req: 2/5] 106.185.28.187 () {38 vars in 677 bytes} [Mon Sep  8 17:36:55 2014] GET / => generated 4515 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.7 (32bit) on [Mon Sep  8 13:38:29 2014] ***
+compiled with version: 4.6.3 on 06 September 2014 09:23:05
+os: Linux-3.8.0-29-generic #42~precise1-Ubuntu SMP Wed Aug 14 15:31:16 UTC 2013
+nodename: DigitalOceanUbuntuUSA
+machine: i686
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /root/Projects/django-query-for-chinese-air-pollution
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 3840
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :8077 fd 3
+Python version: 2.7.3 (default, Feb 27 2014, 20:11:37)  [GCC 4.6.3]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x9f1b438
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 255952 bytes (249 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x9f1b438 pid: 24107 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 24107, cores: 1)
+spawned uWSGI worker 2 (pid: 24113, cores: 1)
+spawned uWSGI worker 3 (pid: 24114, cores: 1)
+spawned uWSGI worker 4 (pid: 24115, cores: 1)
+[pid: 24107|app: 0|req: 1/1] 106.185.28.187 () {36 vars in 646 bytes} [Mon Sep  8 17:38:41 2014] GET / => generated 4515 bytes in 135 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 24113|app: 0|req: 1/2] 106.185.28.187 () {36 vars in 646 bytes} [Mon Sep  8 17:40:53 2014] GET / => generated 4515 bytes in 141 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.7 (32bit) on [Mon Sep  8 13:44:38 2014] ***
+compiled with version: 4.6.3 on 06 September 2014 09:23:05
+os: Linux-3.8.0-29-generic #42~precise1-Ubuntu SMP Wed Aug 14 15:31:16 UTC 2013
+nodename: DigitalOceanUbuntuUSA
+machine: i686
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /root/Projects/django-query-for-chinese-air-pollution
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 3840
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :8077 fd 3
+Python version: 2.7.3 (default, Feb 27 2014, 20:11:37)  [GCC 4.6.3]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x90cb438
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 255952 bytes (249 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x90cb438 pid: 24316 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 24316, cores: 1)
+spawned uWSGI worker 2 (pid: 24322, cores: 1)
+spawned uWSGI worker 3 (pid: 24323, cores: 1)
+spawned uWSGI worker 4 (pid: 24324, cores: 1)
+[pid: 24316|app: 0|req: 1/1] 106.185.28.187 () {36 vars in 646 bytes} [Mon Sep  8 17:44:41 2014] GET / => generated 4515 bytes in 136 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 24322|app: 0|req: 1/2] 106.185.28.187 () {38 vars in 677 bytes} [Mon Sep  8 17:45:49 2014] GET / => generated 4515 bytes in 143 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 24323|app: 0|req: 1/3] 106.185.28.187 () {36 vars in 646 bytes} [Mon Sep  8 17:45:53 2014] GET / => generated 4515 bytes in 167 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 24322|app: 0|req: 2/4] 106.185.28.187 () {38 vars in 711 bytes} [Mon Sep  8 17:46:04 2014] GET /pm2_5_visual => generated 8682 bytes in 4 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 24324|app: 0|req: 1/5] 106.185.28.187 () {38 vars in 699 bytes} [Mon Sep  8 17:46:07 2014] GET / => generated 4515 bytes in 135 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.7 (32bit) on [Mon Sep  8 13:46:19 2014] ***
+compiled with version: 4.6.3 on 06 September 2014 09:23:05
+os: Linux-3.8.0-29-generic #42~precise1-Ubuntu SMP Wed Aug 14 15:31:16 UTC 2013
+nodename: DigitalOceanUbuntuUSA
+machine: i686
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /root/Projects/django-query-for-chinese-air-pollution
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 3840
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :8077 fd 3
+Python version: 2.7.3 (default, Feb 27 2014, 20:11:37)  [GCC 4.6.3]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x90f1438
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 255952 bytes (249 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x90f1438 pid: 24401 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 24401, cores: 1)
+spawned uWSGI worker 2 (pid: 24407, cores: 1)
+spawned uWSGI worker 3 (pid: 24408, cores: 1)
+spawned uWSGI worker 4 (pid: 24409, cores: 1)
+[pid: 24401|app: 0|req: 1/1] 106.185.28.187 () {40 vars in 730 bytes} [Mon Sep  8 17:46:22 2014] GET / => generated 4515 bytes in 140 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.7 (32bit) on [Mon Sep  8 13:48:10 2014] ***
+compiled with version: 4.6.3 on 06 September 2014 09:23:05
+os: Linux-3.8.0-29-generic #42~precise1-Ubuntu SMP Wed Aug 14 15:31:16 UTC 2013
+nodename: DigitalOceanUbuntuUSA
+machine: i686
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /root/Projects/django-query-for-chinese-air-pollution
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 3840
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :8077 fd 3
+Python version: 2.7.3 (default, Feb 27 2014, 20:11:37)  [GCC 4.6.3]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x95ed438
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 255952 bytes (249 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x95ed438 pid: 24457 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 24457, cores: 1)
+spawned uWSGI worker 2 (pid: 24463, cores: 1)
+spawned uWSGI worker 3 (pid: 24464, cores: 1)
+spawned uWSGI worker 4 (pid: 24465, cores: 1)
+[pid: 24457|app: 0|req: 1/1] 106.185.28.187 () {40 vars in 730 bytes} [Mon Sep  8 17:48:19 2014] GET / => generated 4515 bytes in 185 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 24463|app: 0|req: 1/2] 106.185.28.187 () {36 vars in 646 bytes} [Mon Sep  8 17:52:30 2014] GET / => generated 4515 bytes in 154 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 24464|app: 0|req: 1/3] 106.185.28.187 () {38 vars in 679 bytes} [Mon Sep  8 17:52:31 2014] GET /static/css/jumbotron.css => generated 127 bytes in 133 msecs (HTTP/1.1 200) 4 headers in 139 bytes (5 switches on core 0)
+[pid: 24463|app: 0|req: 2/4] 106.185.28.187 () {38 vars in 662 bytes} [Mon Sep  8 17:52:31 2014] GET /static/js/jquery.min.js => generated 95786 bytes in 9 msecs (HTTP/1.1 200) 4 headers in 155 bytes (4 switches on core 0)
+[pid: 24464|app: 0|req: 2/5] 106.185.28.187 () {38 vars in 687 bytes} [Mon Sep  8 17:52:32 2014] GET /static/css/bootstrap.min.css => generated 109518 bytes in 2 msecs (HTTP/1.1 200) 4 headers in 142 bytes (5 switches on core 0)
+[pid: 24465|app: 0|req: 1/6] 106.185.28.187 () {38 vars in 668 bytes} [Mon Sep  8 17:52:32 2014] GET /static/js/bootstrap.min.js => generated 31819 bytes in 144 msecs (HTTP/1.1 200) 4 headers in 155 bytes (6 switches on core 0)
+[pid: 24463|app: 0|req: 3/7] 106.185.28.187 () {38 vars in 711 bytes} [Mon Sep  8 17:52:35 2014] GET /pm2_5_visual => generated 8682 bytes in 5 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 24464|app: 0|req: 3/8] 106.185.28.187 () {38 vars in 703 bytes} [Mon Sep  8 17:52:35 2014] GET /static/css/d3_pm2_5_visual.css => generated 703 bytes in 10 msecs (HTTP/1.1 200) 4 headers in 139 bytes (47 switches on core 0)
+[pid: 24457|app: 0|req: 2/9] 106.185.28.187 () {38 vars in 672 bytes} [Mon Sep  8 17:52:35 2014] GET /static/js/d3.v3.min.js => generated 146751 bytes in 13 msecs (HTTP/1.1 200) 4 headers in 156 bytes (5 switches on core 0)
+[pid: 24463|app: 0|req: 4/10] 106.185.28.187 () {38 vars in 680 bytes} [Mon Sep  8 17:52:35 2014] GET /static/js/d3.tip.v0.6.3.js => generated 6744 bytes in 9 msecs (HTTP/1.1 200) 4 headers in 154 bytes (280 switches on core 0)
+[pid: 24464|app: 0|req: 4/11] 106.185.28.187 () {38 vars in 704 bytes} [Mon Sep  8 17:52:36 2014] GET /static/data/city_data.tsv => generated 648 bytes in 3 msecs (HTTP/1.1 200) 4 headers in 156 bytes (61 switches on core 0)
+[pid: 24465|app: 0|req: 2/12] 106.185.28.187 () {38 vars in 699 bytes} [Mon Sep  8 17:52:40 2014] GET / => generated 4515 bytes in 8 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.7 (32bit) on [Mon Sep  8 13:54:29 2014] ***
+compiled with version: 4.6.3 on 06 September 2014 09:23:05
+os: Linux-3.8.0-29-generic #42~precise1-Ubuntu SMP Wed Aug 14 15:31:16 UTC 2013
+nodename: DigitalOceanUbuntuUSA
+machine: i686
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /root/Projects/django-query-for-chinese-air-pollution
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 3840
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :8077 fd 3
+Python version: 2.7.3 (default, Feb 27 2014, 20:11:37)  [GCC 4.6.3]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x98f1438
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 255952 bytes (249 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x98f1438 pid: 24722 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 24722, cores: 1)
+spawned uWSGI worker 2 (pid: 24728, cores: 1)
+spawned uWSGI worker 3 (pid: 24729, cores: 1)
+spawned uWSGI worker 4 (pid: 24730, cores: 1)
+[pid: 24722|app: 0|req: 1/1] 106.185.28.187 () {38 vars in 687 bytes} [Mon Sep  8 17:54:36 2014] GET / => generated 4515 bytes in 136 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 24728|app: 0|req: 1/2] 106.185.28.187 () {38 vars in 711 bytes} [Mon Sep  8 17:54:39 2014] GET /pm2_5_visual => generated 8682 bytes in 157 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 24729|app: 0|req: 1/3] 106.185.28.187 () {38 vars in 699 bytes} [Mon Sep  8 17:54:46 2014] GET / => generated 4515 bytes in 137 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 24728|app: 0|req: 2/4] 106.185.28.187 () {38 vars in 713 bytes} [Mon Sep  8 17:54:49 2014] GET /worst_30_city => generated 14992 bytes in 45 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 24729|app: 0|req: 2/5] 106.185.28.187 () {40 vars in 744 bytes} [Mon Sep  8 17:55:45 2014] GET /worst_30_city => generated 14992 bytes in 36 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 24728|app: 0|req: 3/6] 106.185.28.187 () {42 vars in 773 bytes} [Mon Sep  8 17:55:45 2014] GET /static/css/bootstrap.min.css => generated 0 bytes in 2 msecs (HTTP/1.1 304) 2 headers in 77 bytes (0 switches on core 0)
+[pid: 24722|app: 0|req: 2/7] 106.185.28.187 () {42 vars in 754 bytes} [Mon Sep  8 17:55:46 2014] GET /static/js/bootstrap.min.js => generated 0 bytes in 9 msecs (HTTP/1.1 304) 2 headers in 77 bytes (0 switches on core 0)
+[pid: 24730|app: 0|req: 1/8] 106.185.28.187 () {42 vars in 748 bytes} [Mon Sep  8 17:55:46 2014] GET /static/js/jquery.min.js => generated 97 bytes in 156 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 24728|app: 0|req: 4/9] 106.185.28.187 () {38 vars in 700 bytes} [Mon Sep  8 17:55:47 2014] GET / => generated 4515 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 24729|app: 0|req: 3/10] 106.185.28.187 () {38 vars in 662 bytes} [Mon Sep  8 17:55:48 2014] GET /static/js/jquery.min.js => generated 95786 bytes in 9 msecs (HTTP/1.1 200) 4 headers in 155 bytes (4 switches on core 0)
+[pid: 24722|app: 0|req: 3/11] 106.185.28.187 () {36 vars in 652 bytes} [Mon Sep  8 17:55:51 2014] GET /dsa => generated 3269 bytes in 5 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.7 (32bit) on [Mon Sep  8 13:55:59 2014] ***
+compiled with version: 4.6.3 on 06 September 2014 09:23:05
+os: Linux-3.8.0-29-generic #42~precise1-Ubuntu SMP Wed Aug 14 15:31:16 UTC 2013
+nodename: DigitalOceanUbuntuUSA
+machine: i686
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /root/Projects/django-query-for-chinese-air-pollution
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 3840
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :8077 fd 3
+Python version: 2.7.3 (default, Feb 27 2014, 20:11:37)  [GCC 4.6.3]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x933b438
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 255952 bytes (249 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x933b438 pid: 24794 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 24794, cores: 1)
+spawned uWSGI worker 2 (pid: 24800, cores: 1)
+spawned uWSGI worker 3 (pid: 24801, cores: 1)
+spawned uWSGI worker 4 (pid: 24802, cores: 1)
+[pid: 24794|app: 0|req: 1/1] 106.185.28.187 () {36 vars in 646 bytes} [Mon Sep  8 17:56:04 2014] GET / => generated 4515 bytes in 141 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 24800|app: 0|req: 1/2] 106.185.28.187 () {38 vars in 725 bytes} [Mon Sep  8 17:56:08 2014] GET /china_map_histogram => generated 3924 bytes in 141 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 24801|app: 0|req: 1/3] 106.185.28.187 () {38 vars in 698 bytes} [Mon Sep  8 17:56:08 2014] GET /static/css/footprint.css => generated 98 bytes in 140 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 24800|app: 0|req: 2/4] 106.185.28.187 () {36 vars in 692 bytes} [Mon Sep  8 17:56:11 2014] GET /china_map_histogram/dsa => generated 3924 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 24802|app: 0|req: 1/5] 106.185.28.187 () {38 vars in 702 bytes} [Mon Sep  8 17:56:12 2014] GET /static/css/footprint.css => generated 98 bytes in 126 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 24800|app: 0|req: 3/6] 106.185.28.187 () {38 vars in 734 bytes} [Mon Sep  8 17:56:14 2014] GET /pm2_5_visual => generated 8682 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 24801|app: 0|req: 2/7] 106.185.28.187 () {38 vars in 737 bytes} [Mon Sep  8 17:56:24 2014] GET /china_map_histogram => generated 3924 bytes in 6 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 24800|app: 0|req: 4/8] 106.185.28.187 () {38 vars in 698 bytes} [Mon Sep  8 17:56:25 2014] GET /static/css/footprint.css => generated 98 bytes in 3 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 24802|app: 0|req: 2/9] 106.185.28.187 () {38 vars in 706 bytes} [Mon Sep  8 17:56:29 2014] GET / => generated 4515 bytes in 6 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 24800|app: 0|req: 5/10] 106.185.28.187 () {36 vars in 652 bytes} [Mon Sep  8 17:56:32 2014] GET /dsa => generated 77 bytes in 3 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 24801|app: 0|req: 3/11] 106.185.28.187 () {36 vars in 650 bytes} [Mon Sep  8 17:56:40 2014] GET /da => generated 76 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 24794|app: 0|req: 2/12] 106.185.28.187 () {38 vars in 711 bytes} [Mon Sep  8 17:56:44 2014] GET /pm2_5_visual => generated 8682 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 24802|app: 0|req: 3/13] 106.185.28.187 () {38 vars in 725 bytes} [Mon Sep  8 17:56:57 2014] GET /worst_30_city => generated 14992 bytes in 43 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 24800|app: 0|req: 6/14] 106.185.28.187 () {38 vars in 724 bytes} [Mon Sep  8 17:56:59 2014] GET /pm2_5_visual => generated 8682 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 24801|app: 0|req: 4/15] 106.185.28.187 () {40 vars in 755 bytes} [Mon Sep  8 17:57:13 2014] GET /pm2_5_visual => generated 8682 bytes in 4 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 24794|app: 0|req: 3/16] 106.185.28.187 () {42 vars in 773 bytes} [Mon Sep  8 17:57:14 2014] GET /static/css/bootstrap.min.css => generated 102 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 24802|app: 0|req: 4/17] 106.185.28.187 () {42 vars in 754 bytes} [Mon Sep  8 17:57:14 2014] GET /static/js/bootstrap.min.js => generated 100 bytes in 3 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 24801|app: 0|req: 5/19] 106.185.28.187 () {42 vars in 758 bytes} [Mon Sep  8 17:57:14 2014] GET /static/js/d3.v3.min.js => generated 96 bytes in 5 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 24800|app: 0|req: 7/19] 106.185.28.187 () {42 vars in 765 bytes} [Mon Sep  8 17:57:14 2014] GET /static/css/jumbotron.css => generated 98 bytes in 7 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 24794|app: 0|req: 4/20] 106.185.28.187 () {42 vars in 766 bytes} [Mon Sep  8 17:57:14 2014] GET /static/js/d3.tip.v0.6.3.js => generated 100 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 24802|app: 0|req: 5/21] 106.185.28.187 () {42 vars in 748 bytes} [Mon Sep  8 17:57:14 2014] GET /static/js/jquery.min.js => generated 97 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 24801|app: 0|req: 6/22] 106.185.28.187 () {42 vars in 789 bytes} [Mon Sep  8 17:57:15 2014] GET /static/css/d3_pm2_5_visual.css => generated 104 bytes in 3 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 24800|app: 0|req: 8/23] 106.185.28.187 () {36 vars in 646 bytes} [Mon Sep  8 17:57:27 2014] GET / => generated 4515 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 24794|app: 0|req: 5/24] 106.185.28.187 () {38 vars in 679 bytes} [Mon Sep  8 17:57:28 2014] GET /static/css/jumbotron.css => generated 98 bytes in 5 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 24802|app: 0|req: 6/25] 106.185.28.187 () {38 vars in 687 bytes} [Mon Sep  8 17:57:28 2014] GET /static/css/bootstrap.min.css => generated 102 bytes in 6 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 24801|app: 0|req: 7/26] 106.185.28.187 () {38 vars in 662 bytes} [Mon Sep  8 17:57:28 2014] GET /static/js/jquery.min.js => generated 97 bytes in 3 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 24800|app: 0|req: 9/27] 106.185.28.187 () {38 vars in 668 bytes} [Mon Sep  8 17:57:28 2014] GET /static/js/bootstrap.min.js => generated 100 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.7 (32bit) on [Mon Sep  8 13:57:43 2014] ***
+compiled with version: 4.6.3 on 06 September 2014 09:23:05
+os: Linux-3.8.0-29-generic #42~precise1-Ubuntu SMP Wed Aug 14 15:31:16 UTC 2013
+nodename: DigitalOceanUbuntuUSA
+machine: i686
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /root/Projects/django-query-for-chinese-air-pollution
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 3840
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :8077 fd 3
+Python version: 2.7.3 (default, Feb 27 2014, 20:11:37)  [GCC 4.6.3]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x83c9438
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 255952 bytes (249 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x83c9438 pid: 24816 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 24816, cores: 1)
+spawned uWSGI worker 2 (pid: 24822, cores: 1)
+spawned uWSGI worker 3 (pid: 24823, cores: 1)
+spawned uWSGI worker 4 (pid: 24824, cores: 1)
+[pid: 24816|app: 0|req: 1/1] 106.185.28.187 () {38 vars in 677 bytes} [Mon Sep  8 17:57:44 2014] GET / => generated 4515 bytes in 224 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 24816|app: 0|req: 2/2] 106.185.28.187 () {40 vars in 693 bytes} [Mon Sep  8 17:57:45 2014] GET /static/js/jquery.min.js => generated 97 bytes in 15 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 24822|app: 0|req: 1/3] 106.185.28.187 () {40 vars in 718 bytes} [Mon Sep  8 17:57:45 2014] GET /static/css/bootstrap.min.css => generated 102 bytes in 405 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 24823|app: 0|req: 1/4] 106.185.28.187 () {40 vars in 710 bytes} [Mon Sep  8 17:57:45 2014] GET /static/css/jumbotron.css => generated 98 bytes in 400 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 24824|app: 0|req: 1/5] 106.185.28.187 () {40 vars in 699 bytes} [Mon Sep  8 17:57:45 2014] GET /static/js/bootstrap.min.js => generated 100 bytes in 390 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 24816|app: 0|req: 3/6] 106.185.28.187 () {38 vars in 677 bytes} [Mon Sep  8 17:58:00 2014] GET / => generated 4515 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 24822|app: 0|req: 2/7] 106.185.28.187 () {40 vars in 710 bytes} [Mon Sep  8 17:58:01 2014] GET /static/css/jumbotron.css => generated 98 bytes in 3 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 24823|app: 0|req: 2/8] 106.185.28.187 () {40 vars in 718 bytes} [Mon Sep  8 17:58:01 2014] GET /static/css/bootstrap.min.css => generated 102 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 24824|app: 0|req: 2/9] 106.185.28.187 () {40 vars in 693 bytes} [Mon Sep  8 17:58:01 2014] GET /static/js/jquery.min.js => generated 97 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 24822|app: 0|req: 3/10] 106.185.28.187 () {40 vars in 699 bytes} [Mon Sep  8 17:58:01 2014] GET /static/js/bootstrap.min.js => generated 100 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.7 (32bit) on [Mon Sep  8 13:58:59 2014] ***
+compiled with version: 4.6.3 on 06 September 2014 09:23:05
+os: Linux-3.8.0-29-generic #42~precise1-Ubuntu SMP Wed Aug 14 15:31:16 UTC 2013
+nodename: DigitalOceanUbuntuUSA
+machine: i686
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /root/Projects/django-query-for-chinese-air-pollution
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 3840
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :8077 fd 3
+Python version: 2.7.3 (default, Feb 27 2014, 20:11:37)  [GCC 4.6.3]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x954b438
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 255952 bytes (249 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x954b438 pid: 24881 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 24881, cores: 1)
+spawned uWSGI worker 2 (pid: 24887, cores: 1)
+spawned uWSGI worker 3 (pid: 24888, cores: 1)
+spawned uWSGI worker 4 (pid: 24889, cores: 1)
+[pid: 24881|app: 0|req: 1/1] 106.185.28.187 () {38 vars in 677 bytes} [Mon Sep  8 17:59:05 2014] GET / => generated 4515 bytes in 134 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 24887|app: 0|req: 1/2] 106.185.28.187 () {40 vars in 710 bytes} [Mon Sep  8 17:59:06 2014] GET /static/css/jumbotron.css => generated 98 bytes in 131 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 24887|app: 0|req: 2/3] 106.185.28.187 () {40 vars in 699 bytes} [Mon Sep  8 17:59:06 2014] GET /static/js/bootstrap.min.js => generated 100 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 24887|app: 0|req: 3/4] 106.185.28.187 () {40 vars in 693 bytes} [Mon Sep  8 17:59:06 2014] GET /static/js/jquery.min.js => generated 97 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 24888|app: 0|req: 1/5] 106.185.28.187 () {40 vars in 718 bytes} [Mon Sep  8 17:59:06 2014] GET /static/css/bootstrap.min.css => generated 102 bytes in 141 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.7 (32bit) on [Mon Sep  8 14:07:53 2014] ***
+compiled with version: 4.6.3 on 06 September 2014 09:23:05
+os: Linux-3.8.0-29-generic #42~precise1-Ubuntu SMP Wed Aug 14 15:31:16 UTC 2013
+nodename: DigitalOceanUbuntuUSA
+machine: i686
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /root/Projects/django-query-for-chinese-air-pollution
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 3840
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :8077 fd 3
+Python version: 2.7.3 (default, Feb 27 2014, 20:11:37)  [GCC 4.6.3]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x9ff3438
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 255952 bytes (249 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x9ff3438 pid: 24975 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 24975, cores: 1)
+spawned uWSGI worker 2 (pid: 24981, cores: 1)
+spawned uWSGI worker 3 (pid: 24982, cores: 1)
+spawned uWSGI worker 4 (pid: 24983, cores: 1)
+[pid: 24975|app: 0|req: 1/1] 106.185.28.187 () {36 vars in 646 bytes} [Mon Sep  8 18:07:56 2014] GET / => generated 4515 bytes in 154 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 24981|app: 0|req: 1/2] 106.185.28.187 () {38 vars in 687 bytes} [Mon Sep  8 18:07:57 2014] GET /static/css/bootstrap.min.css => generated 102 bytes in 137 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 24982|app: 0|req: 1/3] 106.185.28.187 () {38 vars in 662 bytes} [Mon Sep  8 18:07:57 2014] GET /static/js/jquery.min.js => generated 97 bytes in 130 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 24981|app: 0|req: 2/4] 106.185.28.187 () {38 vars in 679 bytes} [Mon Sep  8 18:07:58 2014] GET /static/css/jumbotron.css => generated 98 bytes in 5 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 24983|app: 0|req: 1/5] 106.185.28.187 () {38 vars in 668 bytes} [Mon Sep  8 18:07:58 2014] GET /static/js/bootstrap.min.js => generated 100 bytes in 130 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 24981|app: 0|req: 3/6] 106.185.28.187 () {36 vars in 650 bytes} [Mon Sep  8 18:08:10 2014] GET /ds => generated 76 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.7 (32bit) on [Mon Sep  8 14:09:37 2014] ***
+compiled with version: 4.6.3 on 06 September 2014 09:23:05
+os: Linux-3.8.0-29-generic #42~precise1-Ubuntu SMP Wed Aug 14 15:31:16 UTC 2013
+nodename: DigitalOceanUbuntuUSA
+machine: i686
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /root/Projects/django-query-for-chinese-air-pollution
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 3840
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :8077 fd 3
+Python version: 2.7.3 (default, Feb 27 2014, 20:11:37)  [GCC 4.6.3]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0xa0ae460
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 255952 bytes (249 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0xa0ae460 pid: 25114 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 25114, cores: 1)
+spawned uWSGI worker 2 (pid: 25120, cores: 1)
+spawned uWSGI worker 3 (pid: 25121, cores: 1)
+spawned uWSGI worker 4 (pid: 25122, cores: 1)
+[pid: 25114|app: 0|req: 1/1] 106.185.28.187 () {38 vars in 677 bytes} [Mon Sep  8 18:09:40 2014] GET / => generated 4515 bytes in 143 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 25120|app: 0|req: 1/2] 106.185.28.187 () {40 vars in 718 bytes} [Mon Sep  8 18:09:41 2014] GET /static/css/bootstrap.min.css => generated 102 bytes in 132 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 25120|app: 0|req: 2/3] 106.185.28.187 () {40 vars in 699 bytes} [Mon Sep  8 18:09:41 2014] GET /static/js/bootstrap.min.js => generated 100 bytes in 9 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 25120|app: 0|req: 3/4] 106.185.28.187 () {40 vars in 693 bytes} [Mon Sep  8 18:09:41 2014] GET /static/js/jquery.min.js => generated 97 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 25121|app: 0|req: 1/5] 106.185.28.187 () {40 vars in 710 bytes} [Mon Sep  8 18:09:41 2014] GET /static/css/jumbotron.css => generated 98 bytes in 150 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.7 (32bit) on [Mon Sep  8 14:10:28 2014] ***
+compiled with version: 4.6.3 on 06 September 2014 09:23:05
+os: Linux-3.8.0-29-generic #42~precise1-Ubuntu SMP Wed Aug 14 15:31:16 UTC 2013
+nodename: DigitalOceanUbuntuUSA
+machine: i686
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /root/Projects/django-query-for-chinese-air-pollution
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 3840
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :8077 fd 3
+Python version: 2.7.3 (default, Feb 27 2014, 20:11:37)  [GCC 4.6.3]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x8fcf460
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 255952 bytes (249 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x8fcf460 pid: 25204 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 25204, cores: 1)
+spawned uWSGI worker 2 (pid: 25210, cores: 1)
+spawned uWSGI worker 3 (pid: 25211, cores: 1)
+spawned uWSGI worker 4 (pid: 25212, cores: 1)
+[pid: 25204|app: 0|req: 1/1] 106.185.28.187 () {38 vars in 677 bytes} [Mon Sep  8 18:10:35 2014] GET / => generated 4515 bytes in 201 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 25210|app: 0|req: 1/2] 106.185.28.187 () {40 vars in 718 bytes} [Mon Sep  8 18:10:36 2014] GET /static/css/bootstrap.min.css => generated 102 bytes in 127 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 25204|app: 0|req: 2/3] 106.185.28.187 () {40 vars in 699 bytes} [Mon Sep  8 18:10:36 2014] GET /static/js/bootstrap.min.js => generated 100 bytes in 10 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 25211|app: 0|req: 1/4] 106.185.28.187 () {40 vars in 710 bytes} [Mon Sep  8 18:10:36 2014] GET /static/css/jumbotron.css => generated 98 bytes in 285 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 25212|app: 0|req: 1/5] 106.185.28.187 () {40 vars in 693 bytes} [Mon Sep  8 18:10:36 2014] GET /static/js/jquery.min.js => generated 97 bytes in 281 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 25210|app: 0|req: 2/6] 106.185.28.187 () {38 vars in 677 bytes} [Mon Sep  8 18:10:55 2014] GET / => generated 4515 bytes in 14 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 25211|app: 0|req: 2/7] 106.185.28.187 () {40 vars in 718 bytes} [Mon Sep  8 18:10:55 2014] GET /static/css/bootstrap.min.css => generated 102 bytes in 5 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 25212|app: 0|req: 2/8] 106.185.28.187 () {40 vars in 710 bytes} [Mon Sep  8 18:10:56 2014] GET /static/css/jumbotron.css => generated 98 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 25204|app: 0|req: 3/9] 106.185.28.187 () {40 vars in 699 bytes} [Mon Sep  8 18:10:56 2014] GET /static/js/bootstrap.min.js => generated 100 bytes in 3 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 25210|app: 0|req: 3/10] 106.185.28.187 () {40 vars in 693 bytes} [Mon Sep  8 18:10:56 2014] GET /static/js/jquery.min.js => generated 97 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.7 (32bit) on [Mon Sep  8 14:11:04 2014] ***
+compiled with version: 4.6.3 on 06 September 2014 09:23:05
+os: Linux-3.8.0-29-generic #42~precise1-Ubuntu SMP Wed Aug 14 15:31:16 UTC 2013
+nodename: DigitalOceanUbuntuUSA
+machine: i686
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /root/Projects/django-query-for-chinese-air-pollution
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 3840
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :8077 fd 3
+Python version: 2.7.3 (default, Feb 27 2014, 20:11:37)  [GCC 4.6.3]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x850c460
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 255952 bytes (249 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x850c460 pid: 25259 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 25259, cores: 1)
+spawned uWSGI worker 2 (pid: 25265, cores: 1)
+spawned uWSGI worker 3 (pid: 25266, cores: 1)
+spawned uWSGI worker 4 (pid: 25267, cores: 1)
+[pid: 25259|app: 0|req: 1/1] 106.185.28.187 () {38 vars in 677 bytes} [Mon Sep  8 18:11:06 2014] GET / => generated 4515 bytes in 159 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 25259|app: 0|req: 2/2] 106.185.28.187 () {40 vars in 693 bytes} [Mon Sep  8 18:11:06 2014] GET /static/js/jquery.min.js => generated 97 bytes in 32 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 25267|app: 0|req: 1/3] 106.185.28.187 () {40 vars in 710 bytes} [Mon Sep  8 18:11:06 2014] GET /static/css/jumbotron.css => generated 98 bytes in 461 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 25265|app: 0|req: 1/4] 106.185.28.187 () {40 vars in 699 bytes} [Mon Sep  8 18:11:06 2014] GET /static/js/bootstrap.min.js => generated 100 bytes in 471 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 25266|app: 0|req: 1/5] 106.185.28.187 () {40 vars in 718 bytes} [Mon Sep  8 18:11:06 2014] GET /static/css/bootstrap.min.css => generated 102 bytes in 469 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 25259|app: 0|req: 3/6] 106.185.28.187 () {38 vars in 713 bytes} [Mon Sep  8 18:11:12 2014] GET /worst_30_city => generated 14992 bytes in 54 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 25265|app: 0|req: 2/7] 106.185.28.187 () {38 vars in 700 bytes} [Mon Sep  8 18:11:13 2014] GET /static/css/bootstrap.min.css => generated 102 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 25267|app: 0|req: 2/8] 106.185.28.187 () {38 vars in 675 bytes} [Mon Sep  8 18:11:13 2014] GET /static/js/jquery.min.js => generated 97 bytes in 3 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 25266|app: 0|req: 2/9] 106.185.28.187 () {38 vars in 681 bytes} [Mon Sep  8 18:11:13 2014] GET /static/js/bootstrap.min.js => generated 100 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 25265|app: 0|req: 3/10] 106.185.28.187 () {38 vars in 700 bytes} [Mon Sep  8 18:11:16 2014] GET / => generated 4515 bytes in 7 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 25267|app: 0|req: 3/13] 106.185.28.187 () {38 vars in 687 bytes} [Mon Sep  8 18:11:17 2014] GET /static/css/bootstrap.min.css => generated 102 bytes in 9 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 25266|app: 0|req: 3/13] 106.185.28.187 () {38 vars in 662 bytes} [Mon Sep  8 18:11:17 2014] GET /static/js/jquery.min.js => generated 97 bytes in 9 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 25259|app: 0|req: 4/13] 106.185.28.187 () {38 vars in 679 bytes} [Mon Sep  8 18:11:17 2014] GET /static/css/jumbotron.css => generated 98 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 25265|app: 0|req: 4/14] 106.185.28.187 () {38 vars in 668 bytes} [Mon Sep  8 18:11:17 2014] GET /static/js/bootstrap.min.js => generated 100 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 25266|app: 0|req: 4/15] 106.185.28.187 () {38 vars in 687 bytes} [Mon Sep  8 18:11:19 2014] GET / => generated 4515 bytes in 7 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 25265|app: 0|req: 5/16] 106.185.28.187 () {38 vars in 687 bytes} [Mon Sep  8 18:11:20 2014] GET /static/css/bootstrap.min.css => generated 102 bytes in 3 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 25267|app: 0|req: 4/17] 106.185.28.187 () {38 vars in 679 bytes} [Mon Sep  8 18:11:20 2014] GET /static/css/jumbotron.css => generated 98 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 25259|app: 0|req: 5/18] 106.185.28.187 () {38 vars in 662 bytes} [Mon Sep  8 18:11:20 2014] GET /static/js/jquery.min.js => generated 97 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 25266|app: 0|req: 5/19] 106.185.28.187 () {38 vars in 668 bytes} [Mon Sep  8 18:11:20 2014] GET /static/js/bootstrap.min.js => generated 100 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 25259|app: 0|req: 6/20] 106.185.28.187 () {40 vars in 718 bytes} [Mon Sep  8 18:12:23 2014] GET / => generated 4515 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 25265|app: 0|req: 6/21] 106.185.28.187 () {38 vars in 711 bytes} [Mon Sep  8 18:12:53 2014] GET /pm2_5_visual => generated 8682 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 25267|app: 0|req: 5/22] 106.185.28.187 () {36 vars in 680 bytes} [Mon Sep  8 18:18:00 2014] GET /config.example.js => generated 91 bytes in 3 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 25266|app: 0|req: 6/23] 106.185.28.187 () {36 vars in 646 bytes} [Mon Sep  8 18:18:06 2014] GET / => generated 4515 bytes in 4 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 25259|app: 0|req: 7/24] 106.185.28.187 () {38 vars in 677 bytes} [Mon Sep  8 18:18:27 2014] GET / => generated 4515 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 25265|app: 0|req: 7/25] 106.185.28.187 () {36 vars in 680 bytes} [Mon Sep  8 18:18:31 2014] GET /config.example.js => generated 91 bytes in 3 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 25267|app: 0|req: 6/26] 106.185.28.187 () {36 vars in 594 bytes} [Tue Sep  9 12:35:36 2014] GET / => generated 4515 bytes in 13 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.7 (32bit) on [Tue Sep  9 09:20:36 2014] ***
+compiled with version: 4.6.3 on 06 September 2014 09:23:05
+os: Linux-3.8.0-29-generic #42~precise1-Ubuntu SMP Wed Aug 14 15:31:16 UTC 2013
+nodename: DigitalOceanUbuntuUSA
+machine: i686
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /root/Projects/django-query-for-chinese-air-pollution
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 3840
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :8077 fd 3
+Python version: 2.7.3 (default, Feb 27 2014, 20:11:37)  [GCC 4.6.3]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x9d02440
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 255952 bytes (249 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x9d02440 pid: 1686 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 1686, cores: 1)
+spawned uWSGI worker 2 (pid: 1692, cores: 1)
+spawned uWSGI worker 3 (pid: 1693, cores: 1)
+spawned uWSGI worker 4 (pid: 1694, cores: 1)
+[pid: 1686|app: 0|req: 1/1] 106.185.28.187 () {36 vars in 594 bytes} [Tue Sep  9 13:20:45 2014] GET / => generated 4515 bytes in 177 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 1692|app: 0|req: 1/2] 106.185.28.187 () {38 vars in 659 bytes} [Tue Sep  9 13:20:52 2014] GET /pm2_5_visual => generated 8682 bytes in 136 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 1693|app: 0|req: 1/3] 106.185.28.187 () {38 vars in 685 bytes} [Tue Sep  9 13:20:56 2014] GET /china_map_histogram => generated 3924 bytes in 152 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 1692|app: 0|req: 2/4] 106.185.28.187 () {36 vars in 684 bytes} [Tue Sep  9 13:21:17 2014] GET /china_map_histogram => generated 3924 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 1686|app: 0|req: 2/5] 106.185.28.187 () {38 vars in 706 bytes} [Tue Sep  9 13:21:19 2014] GET / => generated 4515 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 1694|app: 0|req: 1/6] 106.185.28.187 () {38 vars in 711 bytes} [Tue Sep  9 13:21:22 2014] GET /pm2_5_visual => generated 8682 bytes in 148 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 1692|app: 0|req: 3/7] 106.185.28.187 () {38 vars in 699 bytes} [Tue Sep  9 13:21:26 2014] GET / => generated 4515 bytes in 5 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 1693|app: 0|req: 2/8] 113.108.80.206 () {34 vars in 446 bytes} [Tue Sep  9 13:21:51 2014] GET / => generated 4515 bytes in 3 msecs (HTTP/1.0 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 1686|app: 0|req: 3/9] 14.17.29.92 () {36 vars in 439 bytes} [Tue Sep  9 13:21:55 2014] GET / => generated 4515 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 1694|app: 0|req: 2/10] 137.189.228.1 () {36 vars in 613 bytes} [Tue Sep  9 13:21:59 2014] GET / => generated 4515 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 1692|app: 0|req: 4/11] 137.189.228.1 () {36 vars in 564 bytes} [Tue Sep  9 13:22:00 2014] GET /favicon.ico => generated 85 bytes in 9 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 1693|app: 0|req: 3/12] 106.185.28.187 () {38 vars in 725 bytes} [Tue Sep  9 13:22:13 2014] GET /china_map_histogram => generated 3924 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 1686|app: 0|req: 4/13] 137.189.228.1 () {38 vars in 692 bytes} [Tue Sep  9 13:22:13 2014] GET /china_map_histogram => generated 3924 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 1694|app: 0|req: 3/14] 113.108.10.18 () {34 vars in 483 bytes} [Tue Sep  9 13:22:17 2014] GET /china_map_histogram => generated 3924 bytes in 3 msecs (HTTP/1.0 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 1692|app: 0|req: 5/15] 101.226.33.219 () {36 vars in 480 bytes} [Tue Sep  9 13:22:21 2014] GET /china_map_histogram => generated 3924 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 1693|app: 0|req: 4/16] 137.189.228.1 () {38 vars in 697 bytes} [Tue Sep  9 13:22:32 2014] GET /pm2_5_visual => generated 8682 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 1686|app: 0|req: 5/17] 137.189.228.1 () {38 vars in 692 bytes} [Tue Sep  9 13:22:46 2014] GET /worst_30_city => generated 15006 bytes in 34 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 1692|app: 0|req: 6/18] 137.189.228.1 () {38 vars in 667 bytes} [Tue Sep  9 13:22:51 2014] GET / => generated 4515 bytes in 5 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 1693|app: 0|req: 5/19] 106.185.28.187 () {38 vars in 730 bytes} [Tue Sep  9 13:22:58 2014] GET /pm2_5_visual => generated 8682 bytes in 4 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 1694|app: 0|req: 4/20] 106.185.28.187 () {38 vars in 737 bytes} [Tue Sep  9 13:23:00 2014] GET /china_map_histogram => generated 3924 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 1686|app: 0|req: 6/21] 106.185.28.187 () {38 vars in 706 bytes} [Tue Sep  9 13:23:06 2014] GET / => generated 4515 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 1692|app: 0|req: 7/22] 106.185.28.187 () {38 vars in 687 bytes} [Tue Sep  9 13:25:41 2014] GET / => generated 4515 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 1693|app: 0|req: 6/23] 106.185.28.187 () {36 vars in 652 bytes} [Tue Sep  9 13:25:47 2014] GET /dsa => generated 77 bytes in 3 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 1694|app: 0|req: 5/24] 106.185.28.187 () {38 vars in 697 bytes} [Tue Sep  9 13:26:06 2014] GET /index => generated 219387 bytes in 374 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 1692|app: 0|req: 8/25] 106.185.28.187 () {46 vars in 887 bytes} [Tue Sep  9 13:26:12 2014] POST /index => generated 5829 bytes in 24 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 1693|app: 0|req: 7/26] 106.185.28.187 () {38 vars in 716 bytes} [Tue Sep  9 13:26:16 2014] GET /pm2_5_visual => generated 8682 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 1694|app: 0|req: 6/27] 106.185.28.187 () {40 vars in 747 bytes} [Tue Sep  9 13:26:18 2014] GET /pm2_5_visual => generated 8682 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 1686|app: 0|req: 7/28] 106.185.28.187 () {38 vars in 737 bytes} [Tue Sep  9 13:26:36 2014] GET /china_map_histogram => generated 3924 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 1692|app: 0|req: 9/29] 106.185.28.187 () {38 vars in 716 bytes} [Tue Sep  9 13:26:51 2014] GET /index => generated 219387 bytes in 350 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 1693|app: 0|req: 8/30] 106.185.28.187 () {46 vars in 887 bytes} [Tue Sep  9 13:26:57 2014] POST /index => generated 5901 bytes in 22 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 1692|app: 0|req: 10/31] 106.185.28.187 () {38 vars in 708 bytes} [Tue Sep  9 13:27:01 2014] GET /citydata => generated 77557 bytes in 123 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 1693|app: 0|req: 9/32] 106.185.28.187 () {46 vars in 896 bytes} [Tue Sep  9 13:27:04 2014] POST /citydata => generated 3685 bytes in 10 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 1692|app: 0|req: 11/33] 106.185.28.187 () {38 vars in 695 bytes} [Tue Sep  9 13:27:07 2014] GET / => generated 4515 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 1694|app: 0|req: 7/34] 106.185.28.187 () {38 vars in 725 bytes} [Tue Sep  9 13:27:09 2014] GET /china_map_histogram => generated 3924 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 1686|app: 0|req: 8/35] 106.185.28.187 () {36 vars in 646 bytes} [Tue Sep  9 13:33:23 2014] GET / => generated 4515 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 1693|app: 0|req: 10/36] 106.185.28.187 () {38 vars in 711 bytes} [Tue Sep  9 13:33:26 2014] GET /pm2_5_visual => generated 8682 bytes in 5 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 1692|app: 0|req: 12/37] 106.185.28.187 () {38 vars in 709 bytes} [Tue Sep  9 13:33:36 2014] GET /index => generated 219387 bytes in 354 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 1693|app: 0|req: 11/38] 106.185.28.187 () {38 vars in 692 bytes} [Tue Sep  9 13:35:04 2014] GET / => generated 4515 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 1694|app: 0|req: 8/39] 106.185.28.187 () {38 vars in 703 bytes} [Tue Sep  9 13:35:11 2014] GET /citydata => generated 77557 bytes in 154 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 1692|app: 0|req: 13/40] 106.185.28.187 () {38 vars in 711 bytes} [Tue Sep  9 13:35:14 2014] GET /citydata => generated 77557 bytes in 131 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 1693|app: 0|req: 12/41] 106.185.28.187 () {38 vars in 705 bytes} [Tue Sep  9 13:35:15 2014] GET /index => generated 219387 bytes in 369 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 1692|app: 0|req: 14/42] 106.185.28.187 () {38 vars in 692 bytes} [Tue Sep  9 13:35:18 2014] GET / => generated 4515 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.7 (32bit) on [Tue Sep  9 11:10:00 2014] ***
+compiled with version: 4.6.3 on 06 September 2014 09:23:05
+os: Linux-3.8.0-29-generic #42~precise1-Ubuntu SMP Wed Aug 14 15:31:16 UTC 2013
+nodename: DigitalOceanUbuntuUSA
+machine: i686
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /root/Projects/django-query-for-chinese-air-pollution
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 3840
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:8077).
+bind(): Address already in use [core/socket.c line 759]
+*** Starting uWSGI 2.0.7 (32bit) on [Tue Sep  9 11:10:15 2014] ***
+compiled with version: 4.6.3 on 06 September 2014 09:23:05
+os: Linux-3.8.0-29-generic #42~precise1-Ubuntu SMP Wed Aug 14 15:31:16 UTC 2013
+nodename: DigitalOceanUbuntuUSA
+machine: i686
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /root/Projects/django-query-for-chinese-air-pollution
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 3840
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :8077 fd 3
+Python version: 2.7.3 (default, Feb 27 2014, 20:11:37)  [GCC 4.6.3]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x93c0470
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 255952 bytes (249 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x93c0470 pid: 4510 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 4510, cores: 1)
+spawned uWSGI worker 2 (pid: 4517, cores: 1)
+spawned uWSGI worker 3 (pid: 4518, cores: 1)
+spawned uWSGI worker 4 (pid: 4519, cores: 1)
+[pid: 4510|app: 0|req: 1/1] 106.185.28.187 () {38 vars in 747 bytes} [Tue Sep  9 15:10:19 2014] GET / => generated 4515 bytes in 178 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 4517|app: 0|req: 1/2] 106.185.28.187 () {40 vars in 812 bytes} [Tue Sep  9 15:10:21 2014] GET /pm2_5_visual => generated 8682 bytes in 146 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 4518|app: 0|req: 1/3] 106.185.28.187 () {40 vars in 800 bytes} [Tue Sep  9 15:10:24 2014] GET / => generated 4515 bytes in 146 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
