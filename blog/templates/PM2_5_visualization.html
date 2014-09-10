@@ -70,9 +70,9 @@
               d = document,
               e = d.documentElement,
               g = d.getElementsByTagName('body')[0],
-              width = w.innerWidth || e.clientWidth || g.clientWidth,
+              width = w.innerWidth || e.clientWidth || g.clientWidth;
               height = w.innerHeight|| e.clientHeight|| g.clientHeight;
-              width = 1100;
+              width = width*0.75;
               height = height - 300;
               
 
@@ -108,7 +108,7 @@
                 .attr('class', 'd3-tip')
                 .offset([-10, 0])
                 .html(function(d) {
-                  return d.city + " <strong>PM2_5:</strong> <span style='color:red'>" + d.PM2_5 + "</span>";
+                  return " <strong>City: </strong>" + d.city + "<strong>, PM2.5:</strong> <span style='color:red'>" + d.PM2_5 + "</span>";
                 })
               var svg = d3.select("#best-cities-histogram").append("svg")
                   .attr("width", width + margin.left + margin.right)

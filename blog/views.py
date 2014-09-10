@@ -35,22 +35,6 @@ def current_url_view_good(request):
     return HttpResponse("Welcome to the page  host: %s " % request.get_host())
 
 
-def get_PM_and_Air_data_of_cities(the_counting):
-    url = ('http://www.pm25.in/api/querys/all_cities.json?token=')
-    content = urllib2.urlopen(url).read()
-    data = json.loads(content)
-
-    # City air condition of the cities
-    # PM and aqi condition of the cities
-    for line in data:
-        cityAir2 = cityAir(name=line['area'], CO=line['co'], NO2=line['no2'], O3=line['o3'], SO2=line['so2'])
-        regionPM2 = regionPM(city=line['area'], area=line['position_name'], aqi=line['aqi'], quality=line['quality'],
-                             pm2_5=line['pm2_5'], pm10=line['pm10'], addTime=line['time_point'], count=the_counting)
-        # Writing data into database.
-        cityAir2.save()
-        regionPM2.save()
-
-
 def getCities(request):
     # city and quality may be null
 
