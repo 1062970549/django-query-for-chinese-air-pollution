@@ -1,5 +1,7 @@
 .DS_Store 
 
+*.py[cod]
+
 # Python:
 air/__init__.pyc
 air/settings.pyc
@@ -14,6 +16,7 @@ blog/grab_data_plot.py
 
 blog/static/data/city_data.tsv
 #text
-count_hourly.txt
-count.txt
+./count_hourly.txt
+./count.txt
 air/settings_secret.pyc
+air/settings_secret.py
