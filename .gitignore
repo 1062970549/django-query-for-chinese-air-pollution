@@ -16,3 +16,4 @@ blog/static/data/city_data.tsv
 #text
 count_hourly.txt
 count.txt
+air/settings_secret.pyc
